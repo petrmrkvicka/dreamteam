@@ -1,3 +1,19 @@
+/* Including font */
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNext-Regular.woff') format('woff'), url('../fonts/AvenirNext-Regular.ttf')  format('truetype'), url('../fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirBold';
+  src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNext-Bold.woff') format('woff'), url('../fonts/AvenirNext-Bold.ttf')  format('truetype'), url('../fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* Eric Meyer's CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -48,18 +64,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 body {
-	font: 12px/18px Arial, sans-serif;
+	font: 12px/18px "Avenir", sans-serif;
 }
 .wrapper {
 	width: 100%;
 }
 
-element {
+*{
+	outline:none
+}
+
+:root {
   --color-dark-blue: rgb(35,85,135);
 	--color-light-blue: rgb(145,170,195);
 	--color-black: black;
 	--color-grey: rgb(127,127,127);
 	--color-white: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "AvenirBold", sans-serif;
+	font-weight:bold
+}
+h1{
+	font-size:2em;
+}
+h2{
+	font-size:1.5em;
+}
+h3{
+	font-size:1.17em;
+}
+h4{
+	font-size:1em;
+}
+h5{
+	font-size:.83em;
+}
+h6{
+	font-size:.67em;
 }
 
 /* Header
@@ -68,16 +111,110 @@ element {
 	background: var(--color-white);
 }
 
-.logo{
+.logo, .header a img{
 	margin:1em;
-	height:2em;
+	height:1.6em;
+
 }
 
+.header a.search--magnifying_glass img{
+	float:right
+}
 
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+	margin:1em
 }
+
+/* Carousel
+-----------------------------------------------------------------------------*/
+.carousel--container{
+	width:100%;
+	height:115vw;
+	margin:1em;
+	margin-left:0em;
+	overflow-x:auto;
+
+}
+
+.carousel{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	min-width:100%
+}
+
+.carousel--inner{
+	width:100%;
+	height:110vw;
+	display:inline-block;
+	float:left;
+	background:red;
+	background-size:cover!important;
+	background-position:center!important;
+	color: var(--color-white);
+	flex-basis: 100%
+}
+
+/* Interest - Checkbox
+-----------------------------------------------------------------------------*/
+
+#by_interest form{
+	display:flex;
+	flex-wrap: wrap;
+}
+.interest--checkbox {
+  display: block;
+  position: relative;
+  margin: .4em .8em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.interest--checkbox input{
+	position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a custom checkbox */
+.interest--checkmark {
+	position: relative;
+	display: inline-block;
+  top: 0;
+  left: 0;
+	width: 100%;
+	padding:.5em;
+	opacity:0.7
+}
+
+/* On mouse-over, add a grey background color */
+.interest--checkbox:hover input ~ .interest--checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.interest--checkbox input:checked ~ .interest--checkmark {
+	opacity:1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.interest--checkmark em {
+	font-weight:bold;
+	color:var(--color-white);
+}
+
+/* Show the checkmark when checked */
+.interest--checkbox input:checked ~ .interest--checkmark em {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.interest--checkbox .interest--checkmark em {
+}
+
 
 
 
