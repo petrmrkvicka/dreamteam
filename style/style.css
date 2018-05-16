@@ -176,18 +176,18 @@ h6{
 }
 .interest--checkbox input{
 	position: absolute;
-  opacity: 0;
-  cursor: pointer;
+  	opacity: 0;
+  	cursor: pointer;
 }
 /* Create a custom checkbox */
 .interest--checkmark {
 	position: relative;
 	display: inline-block;
-  top: 0;
-  left: 0;
+  	top: 0;
+ 	left: 0;
 	width: 100%;
 	padding:.5em;
-	opacity:0.4
+	opacity:0.2
 }
 
 /* On mouse-over, add a grey background color */
