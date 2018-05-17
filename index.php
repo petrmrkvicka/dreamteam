@@ -1,4 +1,8 @@
 <?php
+  //variables set for head.html, where these are used to show difference between pages
+  $title = "Home of events at Dokk1";
+  $descr = "";
+  $keywords = "";
   //includes everything from file below, without the file, website will show an error
   require("inc/head.html");
   // covered until </head>
