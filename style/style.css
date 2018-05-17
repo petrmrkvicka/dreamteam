@@ -215,8 +215,25 @@ h6{
 .interest--checkbox .interest--checkmark em {
 }
 
-
-
+/* calendar */
+.datepicker-days, .datepicker-months{
+	width:100%
+}
+.datepicker-days table, .datepicker-months table{
+	width:100%
+}
+.datepicker-days table thead, .datepicker-months table thead{
+	font-weight: bold;
+}
+.datepicker-days table tbody, .datepicker-months table tbody{
+	text-align:center
+}
+.datepicker-days .old{
+	opacity:0.5
+}
+.datepicker-days .active{
+	background:red
+}
 
 
 /* Footer
