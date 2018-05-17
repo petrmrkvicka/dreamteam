@@ -90,18 +90,22 @@ body {
 	--color-black: black;
 	--color-grey: rgb(127,127,127);
 	--color-white: white;
+    --color-yellow:rgb(255,180,0)
 }
 
 h1, h2, h3, h4, h5, h6{
 	font-family: "AvenirBold", sans-serif;
-	font-weight:bold
+	font-weight:bold;
+    
 }
 h1{
-	font-size:2em;
+	font-size:4em;
 }
 h2{
-	font-size:1.5em;
+	font-size:2em;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
 }
 h3{
 	font-size:1.17em;
@@ -138,11 +142,14 @@ h6{
 	margin:1em
 }
 
+/* Button */
+
 button {
     font-weight: bold;
     font-size: 1.5em;
     text-transform: uppercase;
     color: var(--color-white);
+    letter-spacing: 0.1em;
     
     width: 35%;
     padding: 2%;
@@ -250,25 +257,68 @@ button:hover {
 .interest--checkbox .interest--checkmark em {
 }
 
+
 /* calendar */
 .datepicker-days, .datepicker-months{
-	width:100%
+	width:100%;
+    background: var(--color-yellow);
+    color: var(--color-white);
+    padding: 3em;
+    margin-left: -3em;
 }
 .datepicker-days table, .datepicker-months table{
-	width:100%
+	width:100%;
+    font-size: 1.5em;
+    
+    
 }
 .datepicker-days table thead, .datepicker-months table thead{
 	font-weight: bold;
+    
 }
+
+.datepicker-days table tr th, .datepicker-days table tr td {
+    padding: 10px 0px;
+    width: 14%;
+    text-align: center;
+    
+}
+
 .datepicker-days table tbody, .datepicker-months table tbody{
-	text-align:center
+	text-align:center;
+    width:100%;
+    background: var(--color-yellow);
+    color: var(--color-white);
+    padding: 3em;
+    margin-left: -3em;   
 }
+
+
 .datepicker-days .old{
 	opacity:0.5
 }
 .datepicker-days .active{
-	background:red
+	background: var(--color-white);
+    color: var(--color-yellow);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
 }
+
+#d {
+    visibility: hidden;
+}
+
+#by_calendar {
+    font-family: "AvenirMedium", sans-serif;
+    text-transform: uppercase;
+    background: var(--color-white);
+    color: var(--color-yellow);
+    
+    
+
+    
+    
+}
+
 
 
 /* Footer

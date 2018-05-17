@@ -153,7 +153,8 @@
                     multidate: true,
                     format: 'dd-mm-yyyy',
                     inline: true,
-                    altField: '#dateHolder'
+                    altField: '#dateHolder',
+                    maxViewMode: 0
 
                 });
                 // takes data from calendar div and puts them into input
