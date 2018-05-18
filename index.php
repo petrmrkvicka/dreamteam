@@ -134,22 +134,9 @@
                 // 3. for each checkbox, give it background style
                 ////////////////////////////////
                 // creating array of colors
-<<<<<<< HEAD
-               
-                var interestColors = ['#d2411e', '#ffb400', '#003764'];
-                
-                // for each interest element
-                $(".interest--checkmark").each(function(index) {
-                    // get random number from array above - example found in jQ library
-                    var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
-                    
-                    // set style for each element
-                    $(this).css("background", thisInterestColor);
-=======
                 // colors from https://flatuicolors.com/palette/defo
                 var interestColors = ['blue', 'red', 'yellow'];
                 // for each interest element
->>>>>>> df5c6483fc3b3794ec056187b42b055deab300ab
 
 
 

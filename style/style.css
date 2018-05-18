@@ -106,12 +106,8 @@ h2{
 	font-size:2em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-<<<<<<< HEAD
     line-height: 1.2em
-    
-=======
 
->>>>>>> df5c6483fc3b3794ec056187b42b055deab300ab
 }
 h3{
 	font-size:1.17em;
@@ -146,14 +142,7 @@ h6{
     background: var(--color-dark-blue);
     position: absolute;
     width: 100%;
-<<<<<<< HEAD
     display: flex;
-    
-    
-=======
-
-
->>>>>>> df5c6483fc3b3794ec056187b42b055deab300ab
 }
 
 
@@ -193,13 +182,8 @@ button {
     text-transform: uppercase;
     color: var(--color-white);
     letter-spacing: 0.1em;
-<<<<<<< HEAD
-    
-    width: 80%;
-=======
 
-    width: 35%;
->>>>>>> df5c6483fc3b3794ec056187b42b055deab300ab
+    width: 80%;
     padding: 2%;
     border: none;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
@@ -287,12 +271,8 @@ button:hover {
  	left: 0;
 	width: 100%;
 	padding:.5em;
-<<<<<<< HEAD
 	background: var(--color-grey);
-    
-=======
   background:silver
->>>>>>> df5c6483fc3b3794ec056187b42b055deab300ab
 }
 
 /* On mouse-over, add a grey background color */
@@ -301,10 +281,6 @@ button:hover {
 }
 
 /* When the checkbox is checked, add a blue background */
-<<<<<<< HEAD
-.interest--checkbox input:checked ~ .interest--checkmark {
-	filter: grayscale(0)
-=======
 .interest--checkbox input:checked ~ .interest--checkmark.blue {
   background:#FFB400
 }
@@ -313,7 +289,6 @@ button:hover {
 }
 .interest--checkbox input:checked ~ .interest--checkmark.yellow {
   background:#003764
->>>>>>> df5c6483fc3b3794ec056187b42b055deab300ab
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
