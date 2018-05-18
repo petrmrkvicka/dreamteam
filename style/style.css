@@ -112,6 +112,7 @@ h2{
 }
 h3{
 	font-size:1.17em;
+    text-transform: uppercase;
 }
 h4{
 	font-size:1em;
