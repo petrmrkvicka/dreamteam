@@ -135,17 +135,22 @@
                 ////////////////////////////////
                 // creating array of colors
                 // colors from https://flatuicolors.com/palette/defo
-                var interestColors = ['#1abc9c-#16a085', '#2ecc71-#27ae60', '#3498db-#2980b9', '#9b59b6-#8e44ad', '#34495e-#2c3e50', '#f1c40f-#f39c12', '#e67e22-#d35400', '#e74c3c-#c0392b'];
+                var interestColors = ['blue', 'red', 'yellow'];
                 // for each interest element
-                $(".interest--checkmark").each(function(index) {
-                    // get random number from array above - example found in jQ library
-                    var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
-                    // split pair of colors
-                    var thisColor = thisInterestColor.split('-');
-                    // set style for each element
-                    $(this).css("background", "linear-gradient(45deg," + thisColor[0] + ", " + thisColor[1] + ")");
 
-                });
+
+
+                    $(".interest--checkmark").each(function(index) {
+                        // get random number from array above - example found in jQ library
+                        var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
+                        // split pair of colors
+                        // set style for each element
+                        $(this).addClass(thisInterestColor);
+
+                    });
+
+
+
 
                 // datepicker for multiple dates
                 // based on codepen https://codepen.io/ranjith555/pen/OyKjjm

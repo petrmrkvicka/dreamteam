@@ -96,7 +96,7 @@ body {
 h1, h2, h3, h4, h5, h6{
 	font-family: "AvenirBold", sans-serif;
 	font-weight:bold;
-    
+
 }
 h1{
 	font-size:4em;
@@ -105,7 +105,7 @@ h2{
 	font-size:2em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    
+
 }
 h3{
 	font-size:1.17em;
@@ -140,13 +140,13 @@ h6{
     background: var(--color-dark-blue);
     position: absolute;
     width: 100%;
-    
-    
+
+
 }
 
 
 input[type=text] {
-      
+
   padding: 0.3em;
   cursor: pointer;
     font-size: 1em;
@@ -155,8 +155,8 @@ input[type=text] {
     width: 80%;
     font-family: "AvenirMedium";
     color: var
-    
-  
+
+
 }
 
 #x--image {
@@ -164,7 +164,7 @@ input[type=text] {
     float:right;
     margin: 1.2em 1em 1em 1em;
 }
-    
+
 
 
 /* Middle
@@ -181,17 +181,17 @@ button {
     text-transform: uppercase;
     color: var(--color-white);
     letter-spacing: 0.1em;
-    
+
     width: 35%;
     padding: 2%;
     background: linear-gradient(45deg, var(--color-dark-blue), var(--color-light-blue));
     border: none;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2); 
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 2em;
     margin-bottom: 2em;
-    
+
 }
 
 button:hover {
@@ -260,7 +260,7 @@ button:hover {
  	left: 0;
 	width: 100%;
 	padding:.5em;
-	opacity:0.2
+  background:silver
 }
 
 /* On mouse-over, add a grey background color */
@@ -269,8 +269,14 @@ button:hover {
 }
 
 /* When the checkbox is checked, add a blue background */
-.interest--checkbox input:checked ~ .interest--checkmark {
-	opacity:1;
+.interest--checkbox input:checked ~ .interest--checkmark.blue {
+  background:#FFB400
+}
+.interest--checkbox input:checked ~ .interest--checkmark.red {
+  background:#D2411E
+}
+.interest--checkbox input:checked ~ .interest--checkmark.yellow {
+  background:#003764
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -300,19 +306,19 @@ button:hover {
 .datepicker-days table, .datepicker-months table{
 	width:100%;
     font-size: 1.5em;
-    
-    
+
+
 }
 .datepicker-days table thead, .datepicker-months table thead{
 	font-weight: bold;
-    
+
 }
 
 .datepicker-days table tr th, .datepicker-days table tr td {
     padding: 10px 0px;
     width: 14%;
     text-align: center;
-    
+
 }
 
 .datepicker-days table tbody, .datepicker-months table tbody{
@@ -321,7 +327,7 @@ button:hover {
     background: var(--color-yellow);
     color: var(--color-white);
     padding: 3em;
-    margin-left: -3em;   
+    margin-left: -3em;
 }
 
 
@@ -343,11 +349,11 @@ button:hover {
     text-transform: uppercase;
     background: var(--color-white);
     color: var(--color-yellow);
-    
-    
 
-    
-    
+
+
+
+
 }
 
 
