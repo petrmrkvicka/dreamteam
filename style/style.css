@@ -1,143 +1,255 @@
 /* Including font */
+
 @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNext-Regular.woff') format('woff'), url('../fonts/AvenirNext-Regular.ttf')  format('truetype'), url('../fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Regular.woff') format('woff'), url('../fonts/AvenirNext-Regular.ttf') format('truetype'), url('../fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'AvenirMedium';
-  src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNext-Medium.woff') format('woff'), url('../fonts/AvenirNext-Medium.ttf')  format('truetype'), url('../fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
-  font-weight: medium;
-  font-style: normal;
+    font-family: 'AvenirMedium';
+    src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Medium.woff') format('woff'), url('../fonts/AvenirNext-Medium.ttf') format('truetype'), url('../fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
+    font-weight: medium;
+    font-style: normal; 
 }
-
 
 @font-face {
-  font-family: 'AvenirBold';
-  src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNext-Bold.woff') format('woff'), url('../fonts/AvenirNext-Bold.ttf')  format('truetype'), url('../fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'AvenirBold';
+    src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Bold.woff') format('woff'), url('../fonts/AvenirNext-Bold.ttf') format('truetype'), url('../fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
-
-
-
 
 
 /* Eric Meyer's CSS Reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /* End of Eric Meyer's CSS Reset */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
-}
-body {
-	font: 12px/18px "Avenir", sans-serif;
-}
-.wrapper {
-	width: 100%;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
 }
 
-*{
-	outline:none
+body {
+    font: 16px/24px "Avenir", sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+* {
+    outline: none
 }
 
 :root {
-  --color-dark-blue: rgb(35,85,135);
-	--color-light-blue: rgb(145,170,195);
-	--color-black: black;
-	--color-grey: rgb(127,127,127);
-	--color-white: white;
-    --color-yellow:rgb(255,180,0);
-    --color-red:rgb(210,65,30)
+    --color-dark-blue: rgb(35, 85, 135);
+    --color-light-blue: rgb(145, 170, 195);
+    --color-black: black;
+    --color-grey: rgb(127, 127, 127);
+    --color-white: white;
+    --color-yellow: rgb(255, 180, 0);
+    --color-red: rgb(210, 65, 30)
 }
 
-h1, h2, h3, h4, h5, h6{
-	font-family: "AvenirBold", sans-serif;
-	font-weight:bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "AvenirBold", sans-serif;
+    font-weight: bold;
 
 }
-h1{
-	font-size:4em;
+
+h1 {
+    font-size: 4em;
 }
-h2{
-	font-size:2em;
+
+h2 {
+    font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     line-height: 1.2em
-
 }
-h3{
-	font-size:1.17em;
+
+h3 {
+    font-size: 1.17em;
     text-transform: uppercase;
 }
-h4{
-	font-size:1em;
+
+h4 {
+    font-size: 1em;
 }
-h5{
-	font-size:.83em;
+
+h5 {
+    font-size: .83em;
 }
-h6{
-	font-size:.67em;
+
+h6 {
+    font-size: .67em;
 }
 
 /* Header
 -----------------------------------------------------------------------------*/
+
 .header {
-	background: var(--color-white);
+    background: var(--color-white);
 }
 
-.logo, .header a img{
-	margin:1em;
-	height:1.6em;
+.logo,
+.header a img {
+    margin: 1em;
+    height: 1.6em;
 
 }
 
-.header a.search--magnifying_glass img{
-	float:right
+.header a.search--magnifying_glass img {
+    float: right
 }
 
 #search--cover {
@@ -150,21 +262,19 @@ h6{
 
 input[type=text] {
 
-  padding: 0.3em;
-  cursor: pointer;
+    padding: 0.3em;
+    cursor: pointer;
     font-size: 1em;
     text-align: left;
     margin: 1em auto 1em 1em;
     width: 80%;
     font-family: "AvenirMedium";
     color: var
-
-
 }
 
 #x--image {
-   height: 1.6em;
-    float:right;
+    height: 1.6em;
+    float: right;
     margin: 1.2em 1em 1em 1em;
 }
 
@@ -172,13 +282,14 @@ input[type=text] {
 
 /* Middle
 -----------------------------------------------------------------------------*/
+
 .content {
-	margin:1em
+    margin: 1em
 }
 
 /* Button */
 
-button {
+button, input[type=submit]{
     font-weight: bold;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -188,156 +299,180 @@ button {
     width: 80%;
     padding: 2%;
     border: none;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 2em;
     margin-bottom: 2em;
-
 }
 
-button:hover {
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
+button:hover, input[type=submit]:hover {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+input[type=submit] {
+    width: 50%;
+    transform: translateX(0);
+    margin-top: 0.5em;
 }
 
 .button--red-blue {
-     background: linear-gradient(45deg, var(--color-red) 60%, var(--color-dark-blue) 60%);
+    background: linear-gradient(120deg, var(--color-red) 60%, var(--color-dark-blue) 60%);
 }
 
 
 .button--blue-yellow {
-     background: linear-gradient(45deg, var(--color-dark-blue) 60%, var(--color-yellow) 60%);
+    background: linear-gradient(120deg, var(--color-dark-blue) 60%, var(--color-yellow) 60%);
 }
 
 .button--yellow-red {
-     background: linear-gradient(45deg, var(--color-yellow) 60%, var(--color-red) 60%);
+    background: linear-gradient(120deg, var(--color-yellow) 60%, var(--color-red) 60%);
 }
 
 /* Carousel
 -----------------------------------------------------------------------------*/
-.carousel--container{
-	width:100%;
-	height:115vw;
-	margin:1em;
-	margin-left:0em;
-	overflow-x:auto;
+
+.carousel--container {
+    width: 100%;
+    height: 115vw;
+    margin: 1em;
+    margin-left: 0em;
+    overflow-x: auto;
 
 }
 
-.carousel{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	min-width:100%
+.carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-width: 100%
 }
 
-.carousel--inner{
-	width:100%;
-	height:110vw;
-	display:inline-block;
-	float:left;
-	background:red;
-	background-size:cover!important;
-	background-position:center!important;
-	color: var(--color-white);
-	flex-basis: 100%
+.carousel--inner {
+    width: 100%;
+    height: 110vw;
+    display: inline-block;
+    float: left;
+    background: red;
+    background-size: cover!important;
+    background-position: center!important;
+    color: var(--color-white);
+    flex-basis: 100%
 }
 
 /* Interest - Checkbox
 -----------------------------------------------------------------------------*/
 
-#by_interest form{
-	display:flex;
-	flex-wrap: wrap;
+#by_interest form {
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .interest--checkbox {
-  display: block;
-  position: relative;
-  margin: .4em .8em;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    display: block;
+    position: relative;
+    margin: .4em .8em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-.interest--checkbox input{
-	position: absolute;
-  	opacity: 0;
-  	cursor: pointer;
+
+.interest--checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
+
 /* Create a custom checkbox */
+
 .interest--checkmark {
-	position: relative;
-	display: inline-block;
-  	top: 0;
- 	left: 0;
-	width: 100%;
-	padding:.5em;
-	background: var(--color-grey);
-  background:silver
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: .5em;
+    background: var(--color-grey);
+    background: silver
 }
 
 /* On mouse-over, add a grey background color */
+
 .interest--checkbox:hover input ~ .interest--checkmark {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
+
 .interest--checkbox input:checked ~ .interest--checkmark.blue {
-  background:#FFB400
+    background: #FFB400
 }
+
 .interest--checkbox input:checked ~ .interest--checkmark.red {
-  background:#D2411E
+    background: #D2411E
 }
+
 .interest--checkbox input:checked ~ .interest--checkmark.yellow {
-  background:#003764
+    background: #003764
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
+
 .interest--checkmark em {
-	font-weight:bold;
-	color:var(--color-white);
+    font-weight: bold;
+    color: var(--color-white);
 }
 
 /* Show the checkmark when checked */
+
 .interest--checkbox input:checked ~ .interest--checkmark em {
-  display: block;
+    display: block;
 }
 
 /* Style the checkmark/indicator */
-.interest--checkbox .interest--checkmark em {
-}
+
+.interest--checkbox .interest--checkmark em {}
 
 
 /* calendar */
-.datepicker-days, .datepicker-months{
-	width:100%;
+
+.datepicker-days,
+.datepicker-months {
+    width: 100%;
     background: var(--color-yellow);
     color: var(--color-white);
     padding: 3em;
     margin-left: -3em;
 }
-.datepicker-days table, .datepicker-months table{
-	width:100%;
+
+.datepicker-days table,
+.datepicker-months table {
+    width: 100%;
     font-size: 1.5em;
 
 
 }
-.datepicker-days table thead, .datepicker-months table thead{
-	font-weight: bold;
+
+.datepicker-days table thead,
+.datepicker-months table thead {
+    font-weight: bold;
 
 }
 
-.datepicker-days table tr th, .datepicker-days table tr td {
+.datepicker-days table tr th,
+.datepicker-days table tr td {
     padding: 10px 0px;
     width: 14%;
     text-align: center;
 
 }
 
-.datepicker-days table tbody, .datepicker-months table tbody{
-	text-align:center;
-    width:100%;
+.datepicker-days table tbody,
+.datepicker-months table tbody {
+    text-align: center;
+    width: 100%;
     background: var(--color-yellow);
     color: var(--color-white);
     padding: 3em;
@@ -345,13 +480,14 @@ button:hover {
 }
 
 
-.datepicker-days .old{
-	opacity:0.5
+.datepicker-days .old {
+    opacity: 0.5;
 }
-.datepicker-days .active{
-	background: var(--color-white);
+
+.datepicker-days .active {
+    background: var(--color-white);
     color: var(--color-yellow);
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 #d {
@@ -364,20 +500,44 @@ button:hover {
     background: var(--color-white);
     color: var(--color-yellow);
 
-
-
-
-
 }
 
 
 
 /* Footer
 -----------------------------------------------------------------------------*/
+
 .footer {
-	background: var(--color-dark-blue);
-  color: var(--color-white)
+    background: var(--color-dark-blue);
+    color: var(--color-white)
 }
-.footer a{
-  color: var(--color-white)
+
+.footer a {
+    color: var(--color-white);
+}
+
+.footer--contact-phone {
+    padding: 1em 0 0 0;
+}
+
+.footer h3 {
+    padding-bottom: 0.5em;
+}
+
+.footer--section {
+    padding: 1em;
+}
+
+.footer img {
+    height: 1.2em;
+    padding: 0 1em;
+}
+
+.footer--social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer--contact-header {
+    flex-basis: 100%;
 }

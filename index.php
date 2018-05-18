@@ -71,6 +71,7 @@
                         <span class="interest--checkmark"><em>ART</em></span>
                       </label>
 
+                            <input type="submit" class="button--red-blue" value="Search!">
                         </form>
 
                     </section>
@@ -86,7 +87,7 @@
                             <div id="datepicker"></div>
                             <input type="text" id="d">
 
-
+<input type="submit" class="button--blue-yellow" value="Search!">
                         </form>
 
                     </section>
