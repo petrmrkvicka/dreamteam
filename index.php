@@ -19,9 +19,13 @@
                     <div class="carousel--container">
                         <div class="carousel">
                             <div class="carousel--inner" id="item1" style="background:url('images/1.jpg')">
-                                <h2>Printede Kjoler</h2>
+                                <div class="top">
+                                    <h2>Printede Kjoler</h2>
                                 <p>Some description will go here</p>
+                                    </div>
+                                <div class="bottom">
                                 <span class="carousel--inner-price">free</span>
+                                    </div>
                             </div>
 
                             <div class="carousel--inner" id="item2" style="background:url('images/2.jpg')">

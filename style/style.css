@@ -11,7 +11,7 @@
     font-family: 'AvenirMedium';
     src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Medium.woff') format('woff'), url('../fonts/AvenirNext-Medium.ttf') format('truetype'), url('../fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
     font-weight: medium;
-    font-style: normal; 
+    font-style: normal;
 }
 
 @font-face {
@@ -289,7 +289,8 @@ input[type=text] {
 
 /* Button */
 
-button, input[type=submit]{
+button,
+input[type=submit] {
     font-weight: bold;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -306,7 +307,8 @@ button, input[type=submit]{
     margin-bottom: 2em;
 }
 
-button:hover, input[type=submit]:hover {
+button:hover,
+input[type=submit]:hover {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -363,11 +365,18 @@ input[type=submit] {
 .carousel--inner {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
 }
 
-.carousel--inner span {
+.top {
+    flex-basis: 100%;
+    margin: 1em;
+}
 
+.bottom {
+    flex-basis: 100%;
+    align-self: flex-end;
+    text-align: right;
+    margin: 1em;
 }
 
 /* Interest - Checkbox
