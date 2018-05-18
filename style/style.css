@@ -90,7 +90,8 @@ body {
 	--color-black: black;
 	--color-grey: rgb(127,127,127);
 	--color-white: white;
-    --color-yellow:rgb(255,180,0)
+    --color-yellow:rgb(255,180,0);
+    --color-red:rgb(210,65,30)
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -105,6 +106,7 @@ h2{
 	font-size:2em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    line-height: 1.2em
     
 }
 h3{
@@ -140,6 +142,7 @@ h6{
     background: var(--color-dark-blue);
     position: absolute;
     width: 100%;
+    display: flex;
     
     
 }
@@ -182,9 +185,8 @@ button {
     color: var(--color-white);
     letter-spacing: 0.1em;
     
-    width: 35%;
+    width: 80%;
     padding: 2%;
-    background: linear-gradient(45deg, var(--color-dark-blue), var(--color-light-blue));
     border: none;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2); 
     margin-left: 50%;
@@ -198,7 +200,18 @@ button:hover {
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.4);
 }
 
+.button--red-blue {
+     background: linear-gradient(45deg, var(--color-red) 60%, var(--color-dark-blue) 60%);
+}
 
+
+.button--blue-yellow {
+     background: linear-gradient(45deg, var(--color-dark-blue) 60%, var(--color-yellow) 60%);
+}
+
+.button--yellow-red {
+     background: linear-gradient(45deg, var(--color-yellow) 60%, var(--color-red) 60%);
+}
 
 /* Carousel
 -----------------------------------------------------------------------------*/
@@ -260,7 +273,8 @@ button:hover {
  	left: 0;
 	width: 100%;
 	padding:.5em;
-	opacity:0.2
+	background: var(--color-grey);
+    
 }
 
 /* On mouse-over, add a grey background color */
@@ -270,7 +284,7 @@ button:hover {
 
 /* When the checkbox is checked, add a blue background */
 .interest--checkbox input:checked ~ .interest--checkmark {
-	opacity:1;
+	filter: grayscale(0)
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */

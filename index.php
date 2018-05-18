@@ -38,8 +38,8 @@
                 <section id="search">
                     <h2>Search by...</h2>
                     <section id="by_interest">
-                        <!-- BUTTON TO BE STYLED! -->
-                        <button>interest</button>
+                        <!-- BUTTON! -->
+                        <button class="button--red-blue">interest</button>
                         <form action="#" method="">
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
@@ -75,8 +75,8 @@
 
                     </section>
                     <section id="by_calendar">
-                        <!-- BUTTON TO BE STYLED! -->
-                        <button>calendar</button>
+                        <!-- BUTTON! -->
+                        <button class="button--blue-yellow">calendar</button>
 
                         <form action="#" method="">
                             <!-- To style the calendar, you would need to expect the elements from the browser as it is projected into the div. Take into consideration:
@@ -94,7 +94,7 @@
                 <section id="your_idea">
                     <h2>Got an idea for an event?</h2>
                     <!-- BUTTON TO BE STYLED! -->
-                    <button>Tell us!</button>
+                    <button class="button--yellow-red">Tell us!</button>
                     <!-- Here goes the form -->
                 </section>
 
@@ -134,16 +134,16 @@
                 // 3. for each checkbox, give it background style
                 ////////////////////////////////
                 // creating array of colors
-                // colors from https://flatuicolors.com/palette/defo
-                var interestColors = ['#1abc9c-#16a085', '#2ecc71-#27ae60', '#3498db-#2980b9', '#9b59b6-#8e44ad', '#34495e-#2c3e50', '#f1c40f-#f39c12', '#e67e22-#d35400', '#e74c3c-#c0392b'];
+               
+                var interestColors = ['#d2411e', '#ffb400', '#003764'];
+                
                 // for each interest element
                 $(".interest--checkmark").each(function(index) {
                     // get random number from array above - example found in jQ library
                     var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
-                    // split pair of colors
-                    var thisColor = thisInterestColor.split('-');
+                    
                     // set style for each element
-                    $(this).css("background", "linear-gradient(45deg," + thisColor[0] + ", " + thisColor[1] + ")");
+                    $(this).css("background", thisInterestColor);
 
                 });
 
