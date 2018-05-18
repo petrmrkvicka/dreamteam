@@ -360,6 +360,16 @@ input[type=submit] {
     flex-basis: 100%
 }
 
+.carousel--inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.carousel--inner span {
+
+}
+
 /* Interest - Checkbox
 -----------------------------------------------------------------------------*/
 

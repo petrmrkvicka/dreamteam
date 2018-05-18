@@ -19,7 +19,7 @@
                     <div class="carousel--container">
                         <div class="carousel">
                             <div class="carousel--inner" id="item1" style="background:url('images/1.jpg')">
-                                <h2>HejHej</h2>
+                                <h2>Printede Kjoler</h2>
                                 <p>Some description will go here</p>
                                 <span class="carousel--inner-price">free</span>
                             </div>
@@ -87,7 +87,7 @@
                             <div id="datepicker"></div>
                             <input type="text" id="d">
 
-<input type="submit" class="button--blue-yellow" value="Search!">
+                            <input type="submit" class="button--blue-yellow" value="Search!">
                         </form>
 
                     </section>
@@ -141,14 +141,14 @@
 
 
 
-                    $(".interest--checkmark").each(function(index) {
-                        // get random number from array above - example found in jQ library
-                        var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
-                        // split pair of colors
-                        // set style for each element
-                        $(this).addClass(thisInterestColor);
+                $(".interest--checkmark").each(function(index) {
+                    // get random number from array above - example found in jQ library
+                    var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
+                    // split pair of colors
+                    // set style for each element
+                    $(this).addClass(thisInterestColor);
 
-                    });
+                });
 
 
 
@@ -176,6 +176,7 @@
 
                 // any javaScript should be put above this comment
             });
+
         </script>
 
     </body>
