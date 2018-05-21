@@ -530,7 +530,7 @@ input[type=submit] {
 /* Browse Page
 -----------------------------------------------------------------------------*/
 
-.browse--search-result { 
+.browse--search-result {
     width: 100vw;
     height: 100vw;
     background-size: cover!important;
@@ -550,7 +550,8 @@ span.time {
     font font-family: "AvenirMedium", sans-serif;
 }
 
-.browse--header, .browse--info {
+.browse--header,
+.browse--info {
     color: white;
     text-transform: none;
 }
@@ -565,7 +566,7 @@ span.time {
     line-height: 0.7em;
 }
 
- .browse--bottom {
+.browse--bottom {
     padding: 0.5em 1rem;
 }
 
@@ -643,11 +644,23 @@ span.month {
 Browse search results tablet break-point 760px
 --------------------------------------------------------------*/
 
+@media only screen and (min-width: 760px) {
+    .browse--search-result-gallery {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -webkit-column-gap: 20px;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        -moz-column-gap: 20px;
+        /* Firefox */
+        column-count: 2;
+        column-gap: 2em;
+        padding-top: 2em;
+    }
 
-browse--search-result-gallery
-
-@media only screen and (max-width: 700px) {
-    body {
-        background-color: lightblue;
+    .browse--search-result {
+        width: 100%;
+        margin: 0 0 2em 0;
     }
 }
