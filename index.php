@@ -9,6 +9,15 @@
  ?>
 
     <body>
+      <style>
+        .footer{
+          background: url(../images/mobile.svg) var(--color-dark-blue);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: bottom center;
+          padding-bottom:4em
+        }
+      </style>
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
             <!-- take a look at the header.html file, there is a comment for you:) -->
