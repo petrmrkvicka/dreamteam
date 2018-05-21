@@ -15,13 +15,13 @@
             <main class="content">
 
                 <section class="browse--page-title">
-                    <h2>This is happening!</h2>
+                    <h2>Take a look at your search results.</h2>
                 </section>
 
                 <section class="browse--search-result-gallery">
 
                     <div class="grid grid-static1">
-                        <h2>This is Happening!</h2>
+                        <h2>Take a look at your search results.</h2>
                     </div>
 
 
@@ -29,7 +29,7 @@
                         <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">Name of the event goes here</h2>
+                                <h2 class="browse--header browse--header-name">Printede Kjoler</h2>                
                                 <p class="browse--info">And here is a place for some short snippet about the event.</p>
                             </div>
                         </a>
@@ -39,6 +39,26 @@
                         <h2 class="browse--header browse--header-date">02<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
+                                <h2 class="browse--header browse--header-name">Pokemon Go</h2>
+                                <p class="browse--info">And here is a place for some short snippet about the event.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="browse--search-result grid" style="background:url('images/event2.jpg')">
+                        <h2 class="browse--header browse--header-date">11<br> <span class="month">June</span><span class="time">18:00<br>19:30</span></h2>
+                        <a href="LINK">
+                            <div class="browse--bottom">
+                                <h2 class="browse--header browse--header-name">Reading Club</h2>
+                                <p class="browse--info">And here is a place for some short snippet about the event.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="browse--search-result grid" style="background:url('images/event1.jpg')">
+                        <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">14:00</span></h2>
+                        <a href="LINK">
+                            <div class="browse--bottom">
                                 <h2 class="browse--header browse--header-name">Name of the event goes here</h2>
                                 <p class="browse--info">And here is a place for some short snippet about the event.</p>
                             </div>
@@ -65,16 +85,6 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event2.jpg')">
-                        <h2 class="browse--header browse--header-date">11<br> <span class="month">June</span><span class="time">18:00<br>19:30</span></h2>
-                        <a href="LINK">
-                            <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">Name of the event goes here</h2>
-                                <p class="browse--info">And here is a place for some short snippet about the event.</p>
-                            </div>
-                        </a>
-                    </div>
-
                     <div class="browse--search-result grid" style="background:url('images/event1.jpg')">
                         <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">14:00</span></h2>
                         <a href="LINK">
@@ -84,30 +94,7 @@
                             </div>
                         </a>
                     </div>
-
-                    <div class="browse--search-result grid" style="background:url('images/event1.jpg')">
-                        <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">14:00</span></h2>
-                        <a href="LINK">
-                            <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">Name of the event goes here</h2>
-                                <p class="browse--info">And here is a place for some short snippet about the event.</p>
-                            </div>
-                        </a>
-                    </div>
-                    
-                                        <div class="browse--search-result grid" style="background:url('images/event1.jpg')">
-                        <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">14:00</span></h2>
-                        <a href="LINK">
-                            <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">Name of the event goes here</h2>
-                                <p class="browse--info">And here is a place for some short snippet about the event.</p>
-                            </div>
-                        </a>
-                    </div>
-
                 </section>
-
-
 
                 <!-- BUTTON! -->
                 <button class="button--red-yellow">Load More</button>

@@ -187,7 +187,7 @@ body {
 }
 
 :root {
-    --color-dark-blue: rgb(35, 85, 135);
+    --color-dark-blue: rgb(0, 55, 100);
     --color-light-blue: rgb(145, 170, 195);
     --color-black: black;
     --color-grey: rgb(127, 127, 127);
@@ -628,6 +628,10 @@ input[type=submit] {
 /* Browse Page
 -----------------------------------------------------------------------------*/
 
+.grid-static1 h2 {
+    display: none;
+}
+
 .browse--search-result {
     width: 100vw;
     height: 100vw;
@@ -780,6 +784,10 @@ Browse search results tablet break-point 760px
         width: 100%;
         margin: 0 0 2em 0;
     }
+    
+    .button--red-yellow {
+        max-width: 20rem;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -788,26 +796,39 @@ Browse search results laptop break-point 1024px
 
 @media only screen and (min-width: 1024px) {
 
+    body {
+    }
+    
     .browse--page-title {
         display: none;
     }
 
-   /* .browse--search-result-gallery {
+    /* .browse--search-result-gallery {
         column-count: none;
     }
         
 */
-
-     .browse--search-result {
+    .browse--search-result {
         height: 60vh;
-         margin: 0;
-    } 
-    
-    .grid {
+        margin: 0;
     }
 
-    .grid:nth-child(even) {
+    .grid {}
 
+    .grid:nth-child(even) {}
+
+    .browse--bottom {
+        width: 100%;
+        bottom: 0;
+        padding: 0.5rem 0;
+    }
+    
+    .browse--bottom h2, p {
+        padding: 0 1rem;
+    }
+    
+    .browse--bottom h2 {
+        font-size: 1.2em;
     }
 
     .browse--search-result-gallery {
@@ -818,16 +839,29 @@ Browse search results laptop break-point 1024px
     }
 
     .grid-static1 {
-        display: block;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         background: var(--color-red);
     }
     
+    .grid-static1 {
+        position: relative;
+    }
+    
+    .grid-static1 h2 {
+        display: block;
+        padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        font-size: 2.4em;
+        line-height: 1.2em;
+        color: white;
+    }
+
     .grid-static2 {
-        display: grid;
         grid-column: 1 / 3;
         grid-row: 2 / 3;
     }
 
+    /*this is the text overlay*/
 }
