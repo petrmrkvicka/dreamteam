@@ -279,30 +279,33 @@ input[type=text] {
     margin: 1.2em 1em 1em 1em;
 }
 
-#search--cover{
-  z-index:99;
-  flex-wrap: wrap;
-  color:white;
-  top:-10em;
+#search--cover {
+    z-index: 99;
+    flex-wrap: wrap;
+    color: white;
+    top: -10em;
 }
-#search--cover a{
-  color: var(--color-dark-blue);
-  padding:.5em .7em;
-  background: var(--color-white);
-  display:inline-block;
-  text-decoration: none;
-  font-weight: bold
+
+#search--cover a {
+    color: var(--color-dark-blue);
+    padding: .5em .7em;
+    background: var(--color-white);
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold
 }
-#search--cover p{
-  margin-left:1em;
-  margin-bottom:0.5em
+
+#search--cover p {
+    margin-left: 1em;
+    margin-bottom: 0.5em
 }
-#search--cover input{
-  border:0;
-  color:var(--color-dark-blue);
-  width: 70%;
-  font-weight:400;
-  padding:.6em
+
+#search--cover input {
+    border: 0;
+    color: var(--color-dark-blue);
+    width: 70%;
+    font-weight: 400;
+    padding: .6em
 }
 
 
@@ -320,12 +323,12 @@ input[type=text] {
 button,
 input[type=submit] {
     font-weight: bold;
-    font-size:1.2em;
+    font-size: 1.2em;
     text-transform: uppercase;
     color: var(--color-white);
     letter-spacing: 2px;
     width: 80%;
-    padding:.6em;
+    padding: .6em;
     border: none;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     margin-left: 50%;
@@ -411,44 +414,46 @@ input[type=submit] {
     margin: 1em;
 }
 
-.carousel--inner .top{
-  content:"";
-  height:70%;
-  background:url(../images/carousel-name.svg);
-  display:inline-block;
-  margin:0em;
-  padding:1.5em;
-  background-repeat: no-repeat;
-  z-index:0
-}
-.carousel--inner .bottom{
-  background: url(../images/carousel-price.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  margin:0;
-  padding:1em;
-  padding-top: 1.2em;
-  text-transform: uppercase;
-  font-size:1.2em;
-  font-weight: bold
+.carousel--inner .top {
+    content: "";
+    height: 70%;
+    background: url(../images/carousel-name.svg);
+    display: inline-block;
+    margin: 0em;
+    padding: 1.5em;
+    background-repeat: no-repeat;
+    z-index: 0
 }
 
-.carousel--inner{
-  height:117vw
+.carousel--inner .bottom {
+    background: url(../images/carousel-price.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+    padding: 1em;
+    padding-top: 1.2em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold
 }
 
-.carousel--container{
-  overflow-y:hidden;
+.carousel--inner {
+    height: 117vw
 }
 
-.top h2{
-  font-size:2em;
-  width:70%
+.carousel--container {
+    overflow-y: hidden;
 }
 
-#intro_text{
-  margin:2em 0
+.top h2 {
+    font-size: 2em;
+    width: 70%
 }
+
+#intro_text {
+    margin: 2em 0
+}
+
 /* Interest - Checkbox
 -----------------------------------------------------------------------------*/
 
@@ -525,12 +530,14 @@ input[type=submit] {
 .interest--checkbox .interest--checkmark em {}
 
 /* TAKE A LOOK AT THIS, PETR!!!!! */
-.interest--checkmark{
-  background:white;
-  box-shadow:1px 1px 2px rgba(0,0,0,0.1)
+
+.interest--checkmark {
+    background: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1)
 }
-.interest--checkmark em{
-  font-family: "AvenirNext-Bold";
+
+.interest--checkmark em {
+    font-family: "AvenirNext-Bold";
 
 }
 
@@ -560,12 +567,13 @@ input[type=submit] {
 
 }
 
-.datepicker-days table tr th, .datepicker-days table tr td{
-  font-size:80%
+.datepicker-days table tr th,
+.datepicker-days table tr td {
+    font-size: 80%
 }
 
-.datepicker-days table tr th{
-  font-weight: bold
+.datepicker-days table tr th {
+    font-weight: bold
 }
 
 .datepicker-days table tr th,
@@ -598,7 +606,7 @@ input[type=submit] {
 }
 
 #d {
-  display:none
+    display: none
 }
 
 #by_calendar {
@@ -609,8 +617,10 @@ input[type=submit] {
 
 }
 
-#by_calendar, #by_interest, #search{
-  margin-bottom:2em
+#by_calendar,
+#by_interest,
+#search {
+    margin-bottom: 2em
 }
 
 
@@ -687,21 +697,26 @@ span.month {
     position: absolute;
     bottom: 1em;
 }
-.button--red{
-  background:var(--color-red);
+
+.button--red {
+    background: var(--color-red);
+}
+
+.grid-static {
+    display: none;
 }
 
 /* Footer
 -----------------------------------------------------------------------------*/
-.footer{
-  background: url(../images/mobile.svg) var(--color-dark-blue);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom center;
-  padding-bottom:4em;
-  color: var(--color-white)
 
-  }
+.footer {
+    background: url(../images/mobile.svg) var(--color-dark-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    padding-bottom: 4em;
+    color: var(--color-white)
+}
 
 
 .footer a {
@@ -756,8 +771,63 @@ Browse search results tablet break-point 760px
         padding-top: 2em;
     }
 
+    /* avoid column breaking */
+    .browse--search-result {
+        break-inside: avoid;
+    }
+
     .browse--search-result {
         width: 100%;
         margin: 0 0 2em 0;
     }
+}
+
+/*--------------------------------------------------------------
+Browse search results laptop break-point 1024px
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+
+    .browse--page-title {
+        display: none;
+    }
+
+   /* .browse--search-result-gallery {
+        column-count: none;
+    }
+        
+*/
+
+     .browse--search-result {
+        height: 60vh;
+         margin: 0;
+    } 
+    
+    .grid {
+    }
+
+    .grid:nth-child(even) {
+
+    }
+
+    .browse--search-result-gallery {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    .grid-static1 {
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        background: var(--color-red);
+    }
+    
+    .grid-static2 {
+        display: grid;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
 }
