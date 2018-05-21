@@ -430,15 +430,15 @@ input[type=submit] {
 /* When the checkbox is checked, add a blue background */
 
 .interest--checkbox input:checked ~ .interest--checkmark.blue {
-    color: #FFB400
+    color: #FFB400!important;
 }
 
 .interest--checkbox input:checked ~ .interest--checkmark.red {
-    color: #D2411E
+    color: #D2411E!important;
 }
 
 .interest--checkbox input:checked ~ .interest--checkmark.yellow {
-    color: #003764
+    color: #003764!important;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -635,4 +635,19 @@ span.month {
 
 .footer--contact-header {
     flex-basis: 100%;
+}
+
+
+
+/*--------------------------------------------------------------
+Browse search results tablet break-point 760px
+--------------------------------------------------------------*/
+
+
+browse--search-result-gallery
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: lightblue;
+    }
 }

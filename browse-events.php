@@ -1,3 +1,4 @@
+
 <?php
   //variables set for head.html, where these are used to show difference between pages
   $title = "Browse Event Search Results at Dokk1";
@@ -18,8 +19,9 @@
                     <h2>This is happening!</h2>
                 </section>
 
+                <section class="browse--search-result-gallery">
 
-                <section class="browse--search-result" style="background:url('images/event1.jpg')">
+                <div class="browse--search-result" style="background:url('images/event1.jpg')">
                     <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                     <a href="LINK">
                         <div class="browse--bottom">
@@ -27,9 +29,9 @@
                             <p class="browse--info">And here is a place for some short snippet about the event.</p>
                         </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="browse--search-result" style="background:url('images/event1.jpg')">
+                <div class="browse--search-result" style="background:url('images/event1.jpg')">
                     <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                     <a href="LINK">
                         <div class="browse--bottom">
@@ -37,9 +39,9 @@
                             <p class="browse--info">And here is a place for some short snippet about the event.</p>
                         </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="browse--search-result" style="background:url('images/event1.jpg')">
+                <div class="browse--search-result" style="background:url('images/event1.jpg')">
                     <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                     <a href="LINK">
                         <div class="browse--bottom">
@@ -47,9 +49,9 @@
                             <p class="browse--info">And here is a place for some short snippet about the event.</p>
                         </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="browse--search-result" style="background:url('images/event1.jpg')">
+                <div class="browse--search-result" style="background:url('images/event1.jpg')">
                     <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                     <a href="LINK">
                         <div class="browse--bottom">
@@ -57,7 +59,9 @@
                             <p class="browse--info">And here is a place for some short snippet about the event.</p>
                         </div>
                     </a>
-                </section>
+                </div>
+                
+            </section>
 
 
 
