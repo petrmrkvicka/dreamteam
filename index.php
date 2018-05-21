@@ -10,12 +10,31 @@
 
     <body>
       <style>
-        .footer{
-          background: url(../images/mobile.svg) var(--color-dark-blue);
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: bottom center;
-          padding-bottom:4em
+      body{
+        overflow-x: hidden;
+      }
+      #d{
+        display: none;
+      }
+
+      #by_calendar, #by_interest, #search{
+        margin-bottom:2em
+      }
+      #search--cover input{
+        background:rgba(255,255,255,0.3);
+        border:0;
+        color:white
+      }
+      #search--cover input::-webkit-input-placeholder,   #search--cover input::-moz-placeholder,   #search--cover input:-ms-input-placeholder,   #search--cover input:-moz-placeholder{
+        color:white
+      }
+
+      .footer{
+        background: url(../images/mobile.svg) var(--color-dark-blue);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        padding-bottom:4em
         }
 
         .button--red{
@@ -24,26 +43,62 @@
 
         .carousel--inner .top{
           content:"";
-          height:100%;
-          background:url(../images/carousel-cover.svg);
+          height:70%;
+          background:url(../images/carousel-name.svg);
           display:inline-block;
           margin:0em;
           padding:1.5em;
           background-repeat: no-repeat;
           z-index:0
         }
+        .carousel--inner .bottom{
+          background: url(../images/carousel-price.svg);
+          background-repeat: no-repeat;
+          background-position: right;
+          margin:0;
+          padding:1em;
+          padding-top: 1.2em;
+          text-transform: uppercase;
+          font-size:1.2em;
+          font-weight: bold
+        }
+
         .carousel--inner{
           height:117vw
         }
 
         .carousel--container{
-          height:120vw;
           overflow-y:hidden;
         }
 
         .top h2{
           font-size:2em;
           width:70%
+        }
+
+        .datepicker-days table tr th, .datepicker-days table tr td{
+          font-size:80%
+        }
+
+        .datepicker-days table tr th{
+          font-weight: bold
+        }
+
+        #intro_text{
+          margin:2em 0
+        }
+        button, input[type=submit]{
+          margin-bottom: .6em;
+          padding:.6em;
+          letter-spacing: 2px;
+          font-size:1.2em
+        }
+        .interest--checkmark{
+          background:white;
+          box-shadow:1px 1px 2px rgba(0,0,0,0.1)
+        }
+        .interest--checkmark em{
+          color:silver
         }
       </style>
         <div class="wrapper">
