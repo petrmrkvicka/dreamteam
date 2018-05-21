@@ -20,10 +20,28 @@
       #by_calendar, #by_interest, #search{
         margin-bottom:2em
       }
+      #search--cover{
+        z-index:99;
+        flex-wrap: wrap;
+        color:white
+      }
+      #search--cover a{
+        color: var(--color-dark-blue);
+        padding:.5em .7em;
+        background: var(--color-white);
+        display:inline-block;
+        text-decoration: none;
+        font-weight: bold
+      }
+      #search--cover p{
+        margin-left:1em;
+        margin-bottom:0.5em
+      }
       #search--cover input{
         background:rgba(255,255,255,0.3);
         border:0;
-        color:white
+        color:white;
+        width: 70%
       }
       #search--cover input::-webkit-input-placeholder,   #search--cover input::-moz-placeholder,   #search--cover input:-ms-input-placeholder,   #search--cover input:-moz-placeholder{
         color:white
