@@ -787,7 +787,10 @@ Browse search results tablet break-point 760px
     
     .button--red-yellow {
         max-width: 20rem;
+        margin-top: 5em;
+        margin-bottom: 7em;
     }
+    
 }
 
 /*--------------------------------------------------------------
@@ -828,13 +831,13 @@ Browse search results laptop break-point 1024px
     }
     
     .browse--bottom h2 {
-        font-size: 1.2em;
+        font-size: 2.2em;
     }
-
+    
     .browse--search-result-gallery {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 2em;
     }
 
@@ -856,6 +859,10 @@ Browse search results laptop break-point 1024px
         font-size: 2.4em;
         line-height: 1.2em;
         color: white;
+    }
+    
+    body {
+        margin: 0 3em;
     }
 
     .grid-static2 {

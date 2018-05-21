@@ -25,7 +25,7 @@
                     </div>
 
 
-                    <div class="browse--search-result grid grid-static2" style="background:url('images/event1.jpg')">
+                    <div class="browse--search-result grid grid-static2" style="background:url('images/event7.jpg')">
                         <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
@@ -35,7 +35,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event3.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event2.jpg')">
                         <h2 class="browse--header browse--header-date">02<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
@@ -45,7 +45,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event2.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event3.jpg')">
                         <h2 class="browse--header browse--header-date">11<br> <span class="month">June</span><span class="time">18:00<br>19:30</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
@@ -55,7 +55,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event1.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event4.jpg')">
                         <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">14:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
@@ -65,7 +65,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event2.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event5.jpg')">
                         <h2 class="browse--header browse--header-date">11<br> <span class="month">June</span><span class="time">18:00<br>19:30</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
@@ -75,7 +75,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event1.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event6.jpg')">
                         <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">14:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
