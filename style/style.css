@@ -541,15 +541,39 @@ span.time {
     font font-family: "AvenirMedium", sans-serif;
 }
 
-.browse--header {
+.browse--header, .browse--info {
     color: white;
     text-transform: none;
+}
+
+.browse--header-date {
+    background: url(../images/date.svg);
+    background-repeat: no-repeat;
+    font-size: 2em;
+    position: relative;
+    top: 0.5em;
 }
 
 span.time {
     display: block;
 }
 
+span.month {
+    text-transform: uppercase;
+    font-family: "AvenirMedium";
+    font-size: 0.7em;
+}
+
+.browse--search-result {
+    position: relative;
+}
+
+.browse--bottom {
+    background: var(--color-dark-blue);
+    width: 70%;
+    position: absolute;
+    bottom: 1em;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
