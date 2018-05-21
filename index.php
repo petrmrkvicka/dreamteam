@@ -11,6 +11,21 @@
     <body>
       <style>
 
+      #js-cookieterms{
+        position: fixed;
+        left:0;
+        bottom:0;
+        right:0;
+        background:rgba(0,0,0,0.7);
+        padding:1em
+      }
+
+      span.cookieterms--agree{
+        float:right;
+        background:var(--color-red);
+        padding:0.4em;
+        cursor: pointer;
+      }
 
 
 
@@ -21,11 +36,6 @@
 
 
 
-
-
-
-
-        
       </style>
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
@@ -66,8 +76,8 @@
                     <h2>Search by...</h2>
                     <section id="by_interest">
                         <!-- BUTTON! -->
-                        <button class="button--red-blue">interest</button>
-                        <form action="#" method="">
+                        <button class="button--red-blue by-interest">interest</button>
+                        <form action="#" method="" class="by-interest">
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
                         <span class="interest--checkmark"><em>ART</em></span>

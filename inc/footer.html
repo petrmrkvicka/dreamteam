@@ -3,15 +3,15 @@
         <h3 class="footer--contact-header">Find Us</h3>
 
         <div class="footer--social-facebook-link">
-               <a href="https://www.facebook.com/pages/Dokk1/171958122959937?fref=ts"><img src="../icons/iconmonstr-facebook-1.svg" alt="DOKK1s Facebook"></a>
+               <a href="https://www.facebook.com/pages/Dokk1/171958122959937?fref=ts"><img src="../images/socials/facebook.svg" alt="DOKK1s Facebook"></a>
         </div>
 
         <div class="footer--social-instagram-link">
-           <a href="https://instagram.com/dokk1aarhus/"><img src="../icons/iconmonstr-instagram-11.svg" alt="DOKK1s Instagram"></a>
+           <a href="https://instagram.com/dokk1aarhus/"><img src="../images/socials/instagram.svg" alt="DOKK1s Instagram"></a>
         </div>
 
         <div class="footer--social-youtube-link">
-              <a href="https://www.youtube.com/channel/UCt83Qq6DcsTbzD5qKdGZtYg/videos"><img src="../icons/iconmonstr-youtube-6.svg" alt="DOKK1s Instagram"></a>
+              <a href="https://www.youtube.com/channel/UCt83Qq6DcsTbzD5qKdGZtYg/videos"><img src="../images/socials/youtube.svg" alt="DOKK1s Instagram"></a>
         </div>
     </div>
 
@@ -50,6 +50,7 @@
             <a href="mailto:dokk1-hovedbiblioteket@aarhus.dk">dokk1-hovedbiblioteket@aarhus.dk</a>
         </div>
     </div>
+<?php if(!isset($_COOKIE["cookie"])): ?>
 
     <div id="js-cookieterms" class="js-cookieterms cookieterms">
         <div class="cookieterms--inner">
@@ -61,4 +62,6 @@
             </span>
         </div>
     </div>
+
+  <?php endif;?>
 </footer>
