@@ -331,6 +331,10 @@ input[type=submit] {
     background: linear-gradient(120deg, var(--color-yellow) 60%, var(--color-red) 60%);
 }
 
+.button--red-yellow {
+    background: linear-gradient(120deg, var(--color-red) 60%, var(--color-yellow) 60%);
+}
+
 /* Carousel
 -----------------------------------------------------------------------------*/
 
@@ -426,15 +430,15 @@ input[type=submit] {
 /* When the checkbox is checked, add a blue background */
 
 .interest--checkbox input:checked ~ .interest--checkmark.blue {
-    background: #FFB400
+    color: #FFB400
 }
 
 .interest--checkbox input:checked ~ .interest--checkmark.red {
-    background: #D2411E
+    color: #D2411E
 }
 
 .interest--checkbox input:checked ~ .interest--checkmark.yellow {
-    background: #003764
+    color: #003764
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -527,10 +531,15 @@ input[type=submit] {
 -----------------------------------------------------------------------------*/
 
 .browse--search-result { 
-    width: 100%;
+    width: 100vw;
     height: 100vw;
-    margin: 1em;
-    margin-left: 0em;
+    background-size: cover!important;
+    background-position: center!important;
+    margin: 2em -1em;
+}
+
+.browse--page-title {
+    margin top: 2em;
 }
 
 span.time {
@@ -552,16 +561,31 @@ span.time {
     font-size: 2em;
     position: relative;
     top: 0.5em;
+    padding: 0.5em 0 0.5em 1rem;
+    line-height: 0.7em;
+}
+
+ .browse--bottom {
+    padding: 0.5em 1rem;
 }
 
 span.time {
     display: block;
+    font-size: 0.5em;
+    padding-top: 0.4em;
+    line-height: 1em;
 }
 
 span.month {
     text-transform: uppercase;
     font-family: "AvenirMedium";
-    font-size: 0.7em;
+    font-size: 0.5em;
+}
+
+.browse--header-name {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    padding: 0.3em 0;
 }
 
 .browse--search-result {
