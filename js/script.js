@@ -70,8 +70,7 @@
         $(".cookieterms--button").click(function() {$('.js-cookieterms').animate({ bottom:'-10em' }, 300);
         document.cookie = "cookie=accepted; expires=365; path=/";});
 
-        //toggle display interest
-        $(".by-interest").click(function() {$('.by-interest').toggleClass( "big-blue", 1000);
+      
 
         // console.log(finalSize);
         // any javaScript should be put above this comment
