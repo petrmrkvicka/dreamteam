@@ -17,6 +17,34 @@
           background-position: bottom center;
           padding-bottom:4em
         }
+
+        .button--red{
+          background:var(--color-red);
+        }
+
+        .carousel--inner .top{
+          content:"";
+          height:100%;
+          background:url(../images/carousel-cover.svg);
+          display:inline-block;
+          margin:0em;
+          padding:1.5em;
+          background-repeat: no-repeat;
+          z-index:0
+        }
+        .carousel--inner{
+          height:117vw
+        }
+
+        .carousel--container{
+          height:120vw;
+          overflow-y:hidden;
+        }
+
+        .top h2{
+          font-size:2em;
+          width:70%
+        }
       </style>
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
@@ -27,7 +55,7 @@
                     <h2>Suggested events</h2>
                     <div class="carousel--container">
                         <div class="carousel">
-                            <div class="carousel--inner" id="item1" style="background:url('images/1.jpg')">
+                            <div class="carousel--inner" id="item1" style="background:url('images/event1.JPG')">
                                 <div class="top">
                                     <h2>Printede Kjoler</h2>
                                 <p>Some description will go here</p>
@@ -37,11 +65,16 @@
                                     </div>
                             </div>
 
-                            <div class="carousel--inner" id="item2" style="background:url('images/2.jpg')">
-                                <h2>HejHej</h2>
+                            <div class="carousel--inner" id="item2" style="background:url('images/event2.JPG')">
+                                <div class="top">
+                                    <h2>Printede Kjoler</h2>
                                 <p>Some description will go here</p>
+                                    </div>
+                                <div class="bottom">
                                 <span class="carousel--inner-price">free</span>
+                                    </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
@@ -84,7 +117,7 @@
                         <span class="interest--checkmark"><em>ART</em></span>
                       </label>
 
-                            <input type="submit" class="button--red-blue" value="Search!">
+                            <input type="submit" class="button--red" value="Search!">
                         </form>
 
                     </section>
@@ -100,7 +133,7 @@
                             <div id="datepicker"></div>
                             <input type="text" id="d">
 
-                            <input type="submit" class="button--blue-yellow" value="Search!">
+                            <input type="submit" class="button--red" value="Search!">
                         </form>
 
                     </section>
