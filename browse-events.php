@@ -20,12 +20,11 @@
 
 
                 <section class="browse--search-result" style="background:url('images/event1.jpg')">
-                    <div>
-                        <h2 class="browse--header">10<br> <span class="month">maj</span><span class="time">kl.18</span></h2>
+                        <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">6PM</span></h2>
+                    
+                    <div class="browse--bottom">
                         <h2 class="browse--header">Name of the event goes here</h2>
-                    </div>
-                    <div>
-                        <p>And here is a place for some short snippet about the event.</p>
+                        <p class="browse--info">And here is a place for some short snippet about the event.</p>
                     </div>
                 </section>
 
