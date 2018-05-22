@@ -32,7 +32,7 @@
 
 
 
-        $(".interest--checkmark").each(function(index) {
+        $(".interest--checkbox").each(function(index) {
             // get random number from array above - example found in jQ library
             var thisInterestColor = interestColors[Math.floor(Math.random() * interestColors.length)];
             // split pair of colors
@@ -70,7 +70,8 @@
         $(".cookieterms--button").click(function() {$('.js-cookieterms').animate({ bottom:'-10em' }, 300);
         document.cookie = "cookie=accepted; expires=365; path=/";});
 
-      
+
+
 
         // console.log(finalSize);
         // any javaScript should be put above this comment

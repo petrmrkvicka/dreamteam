@@ -495,28 +495,32 @@ input[type=submit] {
 /* On mouse-over, add a grey background color */
 
 .interest--checkbox:hover input ~ .interest--checkmark {
-    background-color: #ccc;
+    background-color: white;
 }
 
 /* When the checkbox is checked, add a blue background */
 
-.interest--checkbox input:checked ~ .interest--checkmark.blue {
+.interest--checkbox.blue input:checked ~ .interest--checkmark em{
     color: #FFB400!important;
 }
 
-.interest--checkbox input:checked ~ .interest--checkmark.red {
+.interest--checkbox.red input:checked ~ .interest--checkmark em{
     color: #D2411E!important;
 }
 
-.interest--checkbox input:checked ~ .interest--checkmark.yellow {
+.interest--checkbox.yellow input:checked ~ .interest--checkmark em{
     color: #003764!important;
+}
+
+.interest--checkbox input:checked ~ .interest--checkmark {
+    box-shadow:1px 1px 2px rgba(0,0,0,0.4);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 
 .interest--checkmark em {
     font-weight: bold;
-    color: var(--color-white);
+    color: var(--color-grey);
 }
 
 /* Show the checkmark when checked */
@@ -784,13 +788,13 @@ Browse search results tablet break-point 760px
         width: 100%;
         margin: 0 0 2em 0;
     }
-    
+
     .button--red-yellow {
         max-width: 20rem;
         margin-top: 5em;
         margin-bottom: 7em;
     }
-    
+
 }
 
 /*--------------------------------------------------------------
@@ -801,7 +805,7 @@ Browse search results laptop break-point 1024px
 
     body {
     }
-    
+
     .browse--page-title {
         display: none;
     }
@@ -809,7 +813,7 @@ Browse search results laptop break-point 1024px
     /* .browse--search-result-gallery {
         column-count: none;
     }
-        
+
 */
     .browse--search-result {
         height: 60vh;
@@ -825,15 +829,15 @@ Browse search results laptop break-point 1024px
         bottom: 0;
         padding: 0.5rem 0;
     }
-    
+
     .browse--bottom h2, p {
         padding: 0 1rem;
     }
-    
+
     .browse--bottom h2 {
         font-size: 2.2em;
     }
-    
+
     .browse--search-result-gallery {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
@@ -846,11 +850,11 @@ Browse search results laptop break-point 1024px
         grid-row: 1 / 2;
         background: var(--color-red);
     }
-    
+
     .grid-static1 {
         position: relative;
     }
-    
+
     .grid-static1 h2 {
         display: block;
         padding: 1rem;
@@ -860,7 +864,7 @@ Browse search results laptop break-point 1024px
         line-height: 1.2em;
         color: white;
     }
-    
+
     body {
         margin: 0 3em;
     }
