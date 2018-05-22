@@ -270,7 +270,7 @@ input[type=text] {
     margin: 1em auto 1em 1em;
     width: 80%;
     font-family: "AvenirMedium";
-    color: var
+    
 }
 
 #x--image {
@@ -713,6 +713,45 @@ span.month {
 .grid-static {
     display: none;
 }
+/*Form --------------------------------------------------------------------*/
+.form--idea {
+    height: 90vh;
+    width: 90vw;
+    background: url(../images/mobile.svg) var(--color-dark-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    padding-bottom: 4em;
+    color: var(--color-white);
+    margin: 0;
+}
+
+.button--form, input[type=submit] {
+    color: var(--color-yellow);
+    padding: .6em;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+input[type=text] {
+    opacity: 0.7;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form--idea, h2 {
+    padding: 0.5em;
+}
+
+.form--idea, p {
+    padding: 0.5em;
+}
+
+
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
