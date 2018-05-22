@@ -19,18 +19,15 @@
                 
                      <a class="button--back" href="index.php">back</a>
                 
-                <h2 class="form--idea-h2">Do you have an awesome idea for an event?</h2>
-                <p class="form--idea-p">Submit it here and we will help you to turn it into reality!</p>
-
+                <h2>Sign up for the <span class="event--name-span">The Amazing Name</span> event</h2>
+                
                 <form>
-
-                    <textarea placeholder="Tell us your idea!" class="type--idea"></textarea>
                     
                     <input type="text" name="your name" placeholder="Your Name">
                     
                     <input type="text" name="your email" placeholder="Your email">
                     
-                    <input class="button--form" type="submit" value="SEND">
+                    <input class="button--form" type="submit" value="SIGN UP">
                 </form>
 
             </section>
