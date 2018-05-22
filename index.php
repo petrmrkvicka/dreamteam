@@ -289,7 +289,12 @@
                 <section id="your_idea">
                     <h2>Got an idea for an event?</h2>
                     <!-- BUTTON TO BE STYLED! -->
+<<<<<<< HEAD
                     <a href="idea.php"><button class="button--yellow-red">Tell us!</button></a>                    <!-- Here goes the form -->
+=======
+                    <a href="idea.php"><button class="button--yellow-red">Tell us!</button></a>
+                    <!-- Here goes the form -->
+>>>>>>> 31b55fbdfedd7b82d7178004cb463c8c7309d278
                 </section>
 
             </main>
