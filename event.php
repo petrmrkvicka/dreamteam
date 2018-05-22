@@ -19,7 +19,7 @@
                 <section>
 
 
-                    <div class="browse--search-result grid grid-static2" style="background:url('images/event7.jpg')">
+                    <div id="event--header-image" class="browse--search-result grid grid-static2" style="background:url('images/event7.jpg')">
                         
                         <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         
@@ -32,7 +32,7 @@
 
                 </section>
                 <section>
-                <h2>This is how what it looks like!</h2>
+                <h2>This is what it looks like!</h2>
                     <br>
                     
                     <p>This here is just some random text about the event on would write for everyone to read. 
