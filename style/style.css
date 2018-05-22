@@ -739,7 +739,8 @@ span.month {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     margin-left: 50%;
     transform: translateX(-50%);
-    background: var(--color-white)
+    background: var(--color-white);
+    margin-top: 2em; 
     
     
 }
