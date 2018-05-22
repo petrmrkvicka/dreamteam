@@ -799,9 +799,18 @@ textarea {
 }
 /* Comfirmation
 -----------------------------------------------------------------------------*/
-.blue--box-facebook a{
+
+
+.blue--box-facebook img{
     background: var(--color-dark-blue);
+    height: 2em;
+    width: 2em;
+    padding: 0.5em;  
         
+}
+
+.confirmation--container {
+    display: flex;
 }
 
 b {

@@ -21,11 +21,17 @@
                     <p>Your ticket has been sent to <b>sibp@aarhus.dk</b></p>
             
                     <br>
+                    <div class="confirmation--container">
+                    <div class="confirmation--left">
                     <p>Who's going with you? Share with friends.</p>
+                        </div>
                     
-                    <a><img class="blue--box-facebook" href="images/socials/facebook.svg"></a>
+                    <div class="confirmation--right">
+                    <a class="blue--box-facebook" ><img src="images/socials/facebook.svg"></a>
+                        
+                        </div>
 
-                    <!-- Here goes the form -->
+                   </div>
                 </section>
 
             </main>
