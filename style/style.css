@@ -797,6 +797,15 @@ textarea {
 .event--name-span {
     opacity: 0.7;
 }
+/* Comfirmation
+-----------------------------------------------------------------------------*/
+.blue--box-facebook a{
+    background: var(--color-dark-blue);
+    height: 2.5em;
+    width: 2.5em;
+        
+}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/

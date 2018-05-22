@@ -23,7 +23,7 @@
                     
                     <p>Who's going with you? Share with friends.</p>
                     
-                    <di><img href="icons/iconmonstr-facebook-1.svg"></di>
+                    <a class="blue--box-facebook"><img href="images/socials/facebook.svg"></a>
 
                     <!-- Here goes the form -->
                 </section>
