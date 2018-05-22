@@ -713,9 +713,14 @@ span.month {
 .grid-static {
     display: none;
 }
+
+
+
 /*Form --------------------------------------------------------------------*/
+
+
 .form--idea {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background: url(../images/mobile.svg) var(--color-dark-blue);
     background-repeat: no-repeat;
@@ -763,7 +768,6 @@ span.month {
     padding: 1rem;
     
 }
-
 
 
 .type--idea {
