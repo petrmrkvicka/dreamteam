@@ -8,16 +8,19 @@
         // 3. onClick on next, on swipe, move accordingly
         ///////////////////////////
 
-        //how many elements do we work with
-        var myElements = document.querySelectorAll('.carousel--inner');
-        var amountOfElements = myElements.length;
+        if (screen.width < 760) {
+          //how many elements do we work with
+          var myElements = document.querySelectorAll('.carousel--inner');
+          var amountOfElements = myElements.length;
 
-        //fallback option - just sliding carousel
-        //for each element, multiply width of the whole container
-        var finalSize = amountOfElements * 100;
+          //fallback option - just sliding carousel
+          //for each element, multiply width of the whole container
+          var finalSize = amountOfElements * 100;
 
-        //set a style attribute for the container
-        $(".carousel").css("min-width", finalSize + "%");
+          //set a style attribute for the container
+          $(".carousel").css("min-width", finalSize + "%");
+          }
+
 
 
         //////GIVING COLORS TO CHECKBOXES
