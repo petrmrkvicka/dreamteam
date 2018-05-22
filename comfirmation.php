@@ -17,13 +17,13 @@
 
                 <section>
                     <h2>Dear Name, You're going to The Amazing Name.</h2>
-                    
+                    <br>
                     <p>Your ticket has been sent to <b>sibp@aarhus.dk</b></p>
             
-                    
+                    <br>
                     <p>Who's going with you? Share with friends.</p>
                     
-                    <a class="blue--box-facebook"><img href="images/socials/facebook.svg"></a>
+                    <a><img class="blue--box-facebook" href="images/socials/facebook.svg"></a>
 
                     <!-- Here goes the form -->
                 </section>

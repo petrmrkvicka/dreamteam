@@ -801,9 +801,11 @@ textarea {
 -----------------------------------------------------------------------------*/
 .blue--box-facebook a{
     background: var(--color-dark-blue);
-    height: 2.5em;
-    width: 2.5em;
         
+}
+
+b {
+    font-family: "AvenirBold"
 }
 
 
