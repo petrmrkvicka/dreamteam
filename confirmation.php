@@ -19,8 +19,11 @@
                     <h2>Dear Name, You're going to The Amazing Name.</h2>
                     
                     <p>Your ticket has been sent to <b>sibp@aarhus.dk</b></p>
+            
                     
                     <p>Who's going with you? Share with friends.</p>
+                    
+                    <di><img href="icons/iconmonstr-facebook-1.svg"></di>
 
                     <!-- Here goes the form -->
                 </section>
