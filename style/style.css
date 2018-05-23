@@ -193,6 +193,7 @@ body {
     --color-grey: rgb(127, 127, 127);
     --color-white: white;
     --color-yellow: rgb(255, 180, 0);
+    --color-dark-yellow: rgb(237, 167, 0);
     --color-red: rgb(210, 65, 30)
 }
 
@@ -270,7 +271,7 @@ input[type=text] {
     margin: 1em auto 1em 1em;
     width: 80%;
     font-family: "AvenirMedium";
-    
+
 }
 
 #x--image {
@@ -308,7 +309,13 @@ input[type=text] {
     padding: .6em
 }
 
+#search--desktop{
+  display:none
+}
 
+.no-mobile{
+  display:none
+}
 
 
 /* Middle
@@ -728,7 +735,7 @@ span.month {
     background-position: bottom center;
     color: var(--color-white);
     margin: -1em;
-    
+
 }
 
 .form--idea form {
@@ -737,7 +744,7 @@ span.month {
     margin: 1em;
 }
 
-.button--form, input[type=submit] {
+input.button--form {
     color: var(--color-yellow);
     padding: .6em;
     border: none;
@@ -745,9 +752,9 @@ span.month {
     margin-left: 50%;
     transform: translateX(-50%);
     background: var(--color-white);
-    margin-top: 2em; 
-    
-    
+    margin-top: 2em;
+
+
 }
 
 .form--idea input[type=text] {
@@ -756,7 +763,7 @@ span.month {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     padding: .6em;
     width: 100%;
-    margin: 1rem 0 0; 
+    margin: 1rem 0 0;
 }
 
 .form--idea h2 {
@@ -766,13 +773,13 @@ span.month {
 
 .form--idea p {
     padding: 1rem;
-    
+
 }
 
 
 .type--idea {
     height: 6em;
-    
+
 }
 
 .button--back:before, .button--back {
@@ -791,7 +798,7 @@ textarea {
     font-size: 1em;
     font-family: "AvenirMedium";
     padding: .6em;
-    
+
 }
 
 .event--name-span {
@@ -805,8 +812,8 @@ textarea {
     background: var(--color-dark-blue);
     height: 2em;
     width: 2em;
-    padding: 0.5em;  
-        
+    padding: 0.5em;
+
 }
 
 .confirmation--container {
@@ -819,7 +826,7 @@ b {
 /* Event ----------------------------------------------*/
 #event--header-image {
     height: 70vh;
-    
+
 }
 
 /* Footer
@@ -865,6 +872,23 @@ b {
     flex-basis: 100%;
 }
 
+#js-cookieterms{
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.7);
+  padding:1em
+}
+
+span.cookieterms--agree{
+  float:right;
+  background:var(--color-red);
+  padding:0.4em;
+  cursor: pointer;
+}
+
+
 
 
 
@@ -901,6 +925,165 @@ Browse search results tablet break-point 760px
         max-width: 20rem;
         margin-top: 5em;
         margin-bottom: 7em;
+    }
+
+    header{
+      display:flex;
+      justify-content: space-between;
+    }
+    #search--desktop {
+      display:flex;
+      width:90%;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    #search--desktop p, #search--desktop a, #search--desktop form, #search--desktop div{
+      display:inline-block;
+      color:black
+    }
+    #search--desktop p{
+      padding-right: 1rem
+    }
+    #search--desktop a{
+      font-family: "AvenirBold"
+    }
+    #search--desktop input{
+      display: inline-block;
+    }
+    .search--desktop-magnifying-glass{
+
+    }
+    #search--cover.mobile{
+        display:none;
+    }
+    .search--magnifying_glass{
+        display:none;
+    }
+    .search--desktop-input-holder, .search--desktop-input-holder form{
+      background:var(--color-dark-blue);
+      display: flex!important;
+      flex-wrap: nowrap;
+    }
+    .search--desktop-input-holder input[type="submit"]{
+      width:auto;
+      margin-left:auto;
+      margin-right:1em;
+      background:url(../images/search-white.svg) var(--color-dark-blue);
+      background-repeat: no-repeat;
+      background-position: center;
+      box-shadow:none;
+      cursor: pointer;
+    }
+    .search--desktop-input-holder input[type="text"]{
+      margin-right:2em;
+      cursor: default;
+      width:15em;
+      background:transparent;
+      border:0;
+      color:white;
+      font-family: "Avenir"
+    }
+    .search--desktop-input-holder input::placeholder{
+      color:white;
+      opacity:0.7
+    }
+
+
+    .carousel{
+      width:50%!important;
+    }
+    .carousel--inner:not(#item1){
+      display:none
+    }
+    .carousel--inner{
+      display: block;
+      height:80vh;
+      width:40%;
+      margin-left:50%;
+      margin-right:4em
+
+    }
+    .carousel--container{
+      width:100%;
+      height:auto
+    }
+    .carousel--inner .top{
+      background:var(--color-dark-blue);
+      height:auto;
+      margin-top:8em;
+      position:absolute;
+      left:0;
+      width:53vw
+    }
+    .carousel--inner .top h2{
+      font-size:4rem;
+      margin-left:2rem
+    }
+    .carousel--inner .top p{
+      margin-top:1em;
+      margin-left:1em;
+      max-width:30em
+    }
+    .carousel--inner .top span.time{
+      font-size: 1em;
+      margin-left: 2rem;
+      font-family: "AvenirMedium"
+
+    }
+    .no-mobile{
+      display: block;
+    }
+    .see-more{
+      width:40%;
+      margin-left:2em;
+      top:45%;
+      transform: none;
+      position: absolute;
+      margin-top:12em
+    }
+    .carousel--inner .bottom{
+      transform: rotate(180deg);
+    }
+    .carousel--inner-price{
+      transform: rotate(180deg);
+      display:inline-block;
+    }
+
+    .carousel--buttons{
+      display:flex;
+      flex-wrap: nowrap;
+      position: absolute;
+      right:3rem;
+      margin-top:70vh;
+      z-index: 99
+    }
+    .carousel--buttons a{
+      display: block;
+      cursor: pointer;
+    }
+    .carousel--buttons a:hover{
+      background:var(--color-dark-yellow)
+    }
+    .carousel--buttons-left, .carousel--buttons-right{
+      content:"←";
+      display:inline-block;
+      font-size:2em;
+      padding:.8em;
+      background:var(--color-yellow);
+      color:var(--color-black);
+      max-height:4vh;
+      max-width:4vh;
+      transform: translateY(-50%);
+    }
+    .carousel--buttons-left:hover, .carousel--buttons-right:hover{
+      background:var(--color-red)
+    }
+    .carousel--buttons-right{
+      content:"→";
+    }
+    #by_interest button, #by_calendar button{
+      display: none;
     }
 
 }
