@@ -48,7 +48,6 @@
                         <img src="images/event3.JPG" alt="yup">
                         <img src="images/event2.JPG" alt="yup">
                         <img src="images/event1.JPG" alt="yup">
-                        <img src="images/event8.JPG" alt="yup">
                     </div>
                 </section>
                    

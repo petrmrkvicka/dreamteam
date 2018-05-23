@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'AvenirMedium';
+    font-family: 'Aveniriaium';
     src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Medium.woff') format('woff'), url('../fonts/AvenirNext-Medium.ttf') format('truetype'), url('../fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
     font-weight: medium;
     font-style: normal;
@@ -1263,6 +1263,18 @@ Browse search results tablet break-point 760px
 /*--------------------------------------------------------------
 Browse search results laptop break-point 1024px
 --------------------------------------------------------------*/
+.slide-pictures {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    margin: 0 -1em;
+}
+
+.slide-pictures img{
+    height: 100px;
+    margin-left: 1em;
+}
 
 @media only screen and (min-width: 1024px) {
 
@@ -1281,6 +1293,11 @@ Browse search results laptop break-point 1024px
     .browse--search-result {
         height: 60vh;
         margin: 0;
+              display: block;
+      height:80vh;
+      width:40%;
+      margin-left:50%;
+      margin-right:4em
     }
 
     .grid {}
@@ -1291,6 +1308,12 @@ Browse search results laptop break-point 1024px
         width: 100%;
         bottom: 0;
         padding: 0.5rem 0;
+            background:var(--color-dark-blue);
+      height:auto;
+      margin-top:8em;
+      position:absolute;
+      left:0;
+      width:53vw
     }
 
     .browse--bottom h2, p {
@@ -1349,19 +1372,17 @@ Browse search results laptop break-point 1024px
     .idea--container{
       margin-left: -4em
     }
+    .slide-pictures {
+        padding: 0 30%;
+        margin:0;
+    }
+    
+    .slide-pictures img{
+        height: 200px;
+        margin-left: 1em;
+    }
 }
 
 /* Event page picture slide */
-.slide-pictures {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: scroll;
-    margin: 0 -1em;
 
-}
 
-.slide-pictures img{
-    height: 100px;
-    margin-left: 1em;
-}
