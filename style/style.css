@@ -193,6 +193,10 @@ body {
 
 }
 
+button, input[type=submit]{
+  cursor:pointer
+}
+
 b{
   font-family: "AvenirBold"
 }
@@ -224,8 +228,8 @@ h1 {
 
 h2 {
     font-size: 2em;
-    text-transform: capitalize;
-    letter-spacing: 0.09em;
+    text-transform: none;
+    letter-spacing: normal;
     line-height: 1.2em
 }
 
@@ -796,6 +800,10 @@ input.button--form {
 
 }
 
+.idea--container{
+  display: none;
+}
+
 .button--back:before, .button--back {
     content: "←";
     color: var(--color-white);
@@ -1121,18 +1129,20 @@ Browse search results tablet break-point 760px
       flex-basis:50%
     }
     #by_interest input[type=submit]{
-      margin-right: 2em;
       margin-top:2em
     }
     #by_calendar{
       margin-top:3em;
       flex-basis: 35%;
+      padding:0 3em;
+      background: var(--color-yellow)
     }
     #by_calendar p.no-mobile{
       text-align: right;
       color:var(--color-black);
       text-transform: none;
-      margin-right: 2em
+      margin-right: 0em;
+      margin-top: -4.5em
     }
     #by_interest p.no-mobile{
       text-align:left;
@@ -1147,7 +1157,7 @@ Browse search results tablet break-point 760px
     }
     #by_calendar form{
       background:var(--color-yellow);
-      padding: 0 3em 3em;
+      padding: 0 0 3em;
       display:block
     }
     #by_calendar input[type=submit]{
@@ -1163,6 +1173,90 @@ Browse search results tablet break-point 760px
       background-position: left bottom, right bottom;
       background-repeat: no-repeat;
     }
+
+    #your_idea button{
+      display: none;
+    }
+    .idea--container{
+      display: flex!important;
+      width:100vw;
+      margin-left:-1em
+    }
+    .idea--container-left, .idea--container-right{
+      flex-basis: 50%
+    }
+    .idea--form-left, .idea--form-right{
+      flex-basis: 45%
+    }
+    .idea--container-left{
+      background:url(../images/dokk1.png) var(--color-red);
+      color:var(--color-white);
+      background-size: cover;
+      background-position: bottom left;
+      background-repeat: no-repeat;
+    }
+    .idea--container-left h2{
+      margin:3rem 3rem 3rem 30%;
+      text-align: right;
+    }
+    .idea--container-right p{
+      margin:3rem 60% auto 3rem
+    }
+    #your_idea h2.mobile{
+      display:none
+    }
+    .idea--form{
+      background:rgba(0,0,0,0.5);
+      padding:2em;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      margin-bottom:3rem;
+      margin-left: 100%;
+      width:100%;
+      transform: translateX(-50%);
+    }
+
+    .idea--form-left textarea{
+      height: 100%;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+      font-family: "Avenir";
+    }
+    .idea--form-right input[type=text], .idea--form-right input[type=email], .idea--form-right input[type=submit]{
+      margin:0;
+      padding: 0.6em;
+      font-size: 1em;
+      text-align: left;
+      width: 100%;
+      font-family: "Avenir";
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+      border:0;
+      opacity: 0.7;
+      cursor: text;
+    }
+    .idea--form-right input[type=text]:active, .idea--form-right input[type=email]:active,
+    .idea--form-right input[type=text]:focus,
+     .idea--form-right input[type=email]:focus,
+     .idea--form-left textarea:active,
+     .idea--form-left textarea:focus{
+       opacity:1
+     }
+
+
+    .idea--form-right input[type=email]{
+      margin:1em 0
+    }
+    .idea--form-right input[type=submit]{
+      text-align: center;
+      cursor: pointer;
+      opacity: 1;
+      cursor: pointer
+    }
+
 
 }
 
@@ -1244,6 +1338,17 @@ Browse search results laptop break-point 1024px
     }
 
     /*this is the text overlay*/
+
+    footer.footer{
+      margin:0 -3em
+    }
+    .footer--section{
+      padding:3em
+    }
+
+    .idea--container{
+      margin-left: -4em
+    }
 }
 
 /* Event page picture slide */
@@ -1251,9 +1356,9 @@ Browse search results laptop break-point 1024px
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    overflow-x: scroll; 
-    margin: 0 -1em; 
-    
+    overflow-x: scroll;
+    margin: 0 -1em;
+
 }
 
 .slide-pictures img{

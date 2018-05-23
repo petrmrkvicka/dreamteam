@@ -11,70 +11,19 @@
     <body>
       <style>
 
-      h2{
-        text-transform: none;
-        letter-spacing: normal;
-      }
-        @media only screen and (min-width: 760px) {
-          #your_idea button{
-            display: none;
-          }
-          .idea--container{
-            display: flex;
-            width:100vw;
-            margin-left:-4em
-          }
-          .idea--container-left, .idea--container-right{
-            flex-basis: 50%
-          }
-          .idea--form-left, .idea--form-right{
-            flex-basis: 45%
-          }
-          .idea--container-left{
-            background:url(images/dokk1.png) var(--color-red);
-            color:var(--color-white);
-            background-size: cover;
-            background-position: bottom left;
-            background-repeat: no-repeat;
-          }
-          .idea--container-left h2{
-            margin:3rem 3rem 40% 30%;
-            text-align: right;
-          }
-          .idea--container-right p{
-            margin:3rem 60% auto 3rem
-          }
-          #your_idea h2.mobile{
-            display:none
-          }
-          .idea--form{
-            background:rgba(0,0,0,0.5);
-            padding:2em;
-            position: absolute;
-            display: flex;
-            flex-wrap: nowrap;
-            margin-left:50%;
-            transform: translateX(-50%) translateY(-120%);
-            justify-content: space-between;
-          }
 
-          .idea--form-left textarea{
-            height: 100%
-          }
-          .idea--form-right input[type=text], .idea--form-right input[type=email], .idea--form-right input[type=submit]{
-            margin:0;
-            padding: 0.3em;
-            cursor: pointer;
-            font-size: 1em;
-            text-align: left;
-            width: 80%;
-            font-family: "AvenirMedium";
-          }
-          footer.footer{
-            margin:0 -3em
-          }
+        @media only screen and (min-width: 760px) {
+
+
+
+
+
 
         }
+
+
+
+
 
 
       </style>
@@ -193,9 +142,9 @@
                             <textarea placeholder="Tell us about your idea!" name="idea" required></textarea>
                           </div>
                           <div class="idea--form-right">
-                            <input type="text" name="name" required>
-                            <input type="email" name="email" required>
-                            <input type="submit" value="SEND">
+                            <input type="text" name="name" required placeholder="Your name">
+                            <input type="email" name="email" required placeholder="Your email">
+                            <input type="submit" value="SEND" class="button--red">
                           </div>
                         </form>
                       </div>
