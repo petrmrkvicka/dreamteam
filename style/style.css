@@ -1,5 +1,7 @@
 /* Including font */
 
+
+
 @font-face {
     font-family: 'Avenir';
     src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Regular.woff') format('woff'), url('../fonts/AvenirNext-Regular.ttf') format('truetype'), url('../fonts/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
@@ -183,9 +185,17 @@ body {
 }
 
 * {
-    outline: none
+    outline: none;
+    transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+
 }
 
+b{
+  font-family: "AvenirBold"
+}
 :root {
     --color-dark-blue: rgb(0, 55, 100);
     --color-light-blue: rgb(145, 170, 195);
@@ -606,8 +616,12 @@ input[type=submit] {
 }
 
 
-.datepicker-days .old {
+.datepicker-days .old, .datepicker-days .new {
     opacity: 0.5;
+}
+
+.datepicker-days table tr td{
+  font-family: "Avenir"
 }
 
 .datepicker-days .active {
@@ -1084,6 +1098,64 @@ Browse search results tablet break-point 760px
     }
     #by_interest button, #by_calendar button{
       display: none;
+    }
+    #date_picker{
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.3)
+    }
+    #search{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    #search h2{
+      flex-basis: 100%
+    }
+    #by_interest, #by_calendar{
+      flex-basis:50%
+    }
+    #by_interest input[type=submit]{
+      margin-right: 2em;
+      margin-top:2em
+    }
+    #by_calendar{
+      margin-top:3em;
+      flex-basis: 35%;
+    }
+    #by_calendar p.no-mobile{
+      text-align: right;
+      color:var(--color-black);
+      text-transform: none;
+      margin-right: 2em
+    }
+    #by_interest p.no-mobile{
+      text-align:left;
+      position: absolute;
+      margin-top: -4.5em
+    }
+    #by_interest{
+      background: silver;
+      margin-top:5em;
+      padding:3em;
+      flex-basis:35%
+    }
+    #by_calendar form{
+      background:var(--color-yellow);
+      padding: 0 3em 3em;
+      display:block
+    }
+    #by_calendar input[type=submit]{
+      margin: 0;
+
+    }
+    footer.footer{
+      display: flex;
+      align-content: stretch;
+      justify-content: space-between;
+      padding-bottom: 0;
+      background: url(images/left.svg), url(images/right.svg) var(--color-dark-blue);
+      background-position: left bottom, right bottom;
+      background-repeat: no-repeat;
     }
 
 }

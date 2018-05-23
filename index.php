@@ -11,6 +11,11 @@
     <body>
       <style>
 
+
+        @media only screen and (min-width: 760px) {
+
+
+        }
       </style>
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
@@ -59,6 +64,7 @@
                 <section id="search">
                     <h2>Search by...</h2>
                     <section id="by_interest">
+                      <p class="no-mobile">Search by <b>interest</b></p>
                         <!-- BUTTON! -->
                         <button class="button--red-blue by-interest">interest</button>
                         <form action="#" method="" class="by-interest">
@@ -97,6 +103,7 @@
 
                     </section>
                     <section id="by_calendar">
+                      <p class="no-mobile">Search by <b>date</b></p>
                         <!-- BUTTON! -->
                         <button class="button--blue-yellow">calendar</button>
 
