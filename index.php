@@ -11,11 +11,72 @@
     <body>
       <style>
 
-
+      h2{
+        text-transform: none;
+        letter-spacing: normal;
+      }
         @media only screen and (min-width: 760px) {
+          #your_idea button{
+            display: none;
+          }
+          .idea--container{
+            display: flex;
+            width:100vw;
+            margin-left:-4em
+          }
+          .idea--container-left, .idea--container-right{
+            flex-basis: 50%
+          }
+          .idea--form-left, .idea--form-right{
+            flex-basis: 45%
+          }
+          .idea--container-left{
+            background:url(images/dokk1.png) var(--color-red);
+            color:var(--color-white);
+            background-size: cover;
+            background-position: bottom left;
+            background-repeat: no-repeat;
+          }
+          .idea--container-left h2{
+            margin:3rem 3rem 40% 30%;
+            text-align: right;
+          }
+          .idea--container-right p{
+            margin:3rem 60% auto 3rem
+          }
+          #your_idea h2.mobile{
+            display:none
+          }
+          .idea--form{
+            background:rgba(0,0,0,0.5);
+            padding:2em;
+            position: absolute;
+            display: flex;
+            flex-wrap: nowrap;
+            margin-left:50%;
+            transform: translateX(-50%) translateY(-120%);
+            justify-content: space-between;
+          }
 
+          .idea--form-left textarea{
+            height: 100%
+          }
+          .idea--form-right input[type=text], .idea--form-right input[type=email], .idea--form-right input[type=submit]{
+            margin:0;
+            padding: 0.3em;
+            cursor: pointer;
+            font-size: 1em;
+            text-align: left;
+            width: 80%;
+            font-family: "AvenirMedium";
+          }
+          footer.footer{
+            margin:0 -3em
+          }
 
         }
+
+
       </style>
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
@@ -121,9 +182,27 @@
                     </section>
                 </section>
                 <section id="your_idea">
-                    <h2>Got an idea for an event?</h2>
+                    <h2 class="mobile">Got an idea for an event?</h2>
                     <!-- BUTTON TO BE STYLED! -->
                     <a href="idea.php"><button class="button--yellow-red">Tell us!</button></a>                    <!-- Here goes the form -->
+                    <div class="idea--container">
+                      <div class="idea--container-left">
+                        <h2>Do you have an awesome idea for an event?</h2>
+                        <form class="idea--form">
+                          <div class="idea--form-left">
+                            <textarea placeholder="Tell us about your idea!" name="idea" required></textarea>
+                          </div>
+                          <div class="idea--form-right">
+                            <input type="text" name="name" required>
+                            <input type="email" name="email" required>
+                            <input type="submit" value="SEND">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="idea--container-right">
+                        <p>Submit it here and we will help you to turn it into reality!</p>
+                      </div>
+                    </div>
                 </section>
 
             </main>
