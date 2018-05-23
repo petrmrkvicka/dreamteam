@@ -1159,7 +1159,7 @@ Browse search results tablet break-point 760px
       align-content: stretch;
       justify-content: space-between;
       padding-bottom: 0;
-      background: url(images/left.svg), url(images/right.svg) var(--color-dark-blue);
+      background: url(../images/left.svg), url(../images/right.svg) var(--color-dark-blue);
       background-position: left bottom, right bottom;
       background-repeat: no-repeat;
     }
