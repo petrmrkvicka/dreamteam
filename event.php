@@ -24,7 +24,7 @@
                         <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         
                             <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">Printede Kjoler</h2>                
+                                <h2 class="browse--header browse--header-name">Name of the event goes here</h2>                
                                 <p class="browse--info">And here is a place for some short snippet about the event.</p>
                             </div>
                         
@@ -40,6 +40,16 @@
                     <br>
                     <p>In DOKK1, there is a lot of fun for adults, but also for kids so make sure that you come because it will be awesome!
                     </p>
+                    
+                    <div class= "slide-pictures"
+                         >
+                        <img src="images/event4.JPG" alt="yup">
+                        <img src="images/event7.JPG" alt="yup">
+                        <img src="images/event3.JPG" alt="yup">
+                        <img src="images/event2.JPG" alt="yup">
+                        <img src="images/event1.JPG" alt="yup">
+                        <img src="images/event8.JPG" alt="yup">
+                    </div>
                 </section>
                    
 

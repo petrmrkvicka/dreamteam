@@ -1245,3 +1245,18 @@ Browse search results laptop break-point 1024px
 
     /*this is the text overlay*/
 }
+
+/* Event page picture slide */
+.slide-pictures {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll; 
+    margin: 0 -1em; 
+    
+}
+
+.slide-pictures img{
+    height: 100px;
+    margin-left: 1em;
+}
