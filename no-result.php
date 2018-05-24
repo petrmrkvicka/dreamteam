@@ -1,6 +1,6 @@
 <?php
   //variables set for head.html, where these are used to show difference between pages
-  $title = "You have your ticket - Dokk1";
+  $title = "There are no results for your page - Dokk1";
   $descr = "";
   $keywords = "";
   //includes everything from file below, without the file, website will show an error
@@ -9,38 +9,37 @@
  ?>
 
     <body>
-
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
             <!-- take a look at the header.html file, there is a comment for you:) -->
             <main class="content">
 
-                <section>
-                    <h2>Dear Name, You're going to The Amazing Name.</h2>
-                    <br>
-                    <p>Your ticket has been sent to <b>sibp@aarhus.dk</b></p>
-
-                    <br>
-                    <div class="confirmation--container">
-                    <div class="confirmation--left">
-                    <p>Who's going with you? Share with friends.</p>
-                        </div>
-
-                    <div class="confirmation--right">
-                    <a class="blue--box-facebook" ><img src="images/socials/facebook.svg"></a>
-
-                        </div>
-
-                   </div>
+                <section class="browse--page-title">
+                    <h2>Take a look at your search results.</h2>
                 </section>
+
+                <section class="browse--search-result-gallery no-result">
+
+                    <div class="grid grid-static1">
+                        <h2>Take a look at your search results.</h2>
+                    </div>
+
+
+                    <div class="browse--search-result grid no-result" style="background:whitesmoke">
+                        <p>No events match your search query!<br>Go to the <a href="/index.php">homepage</a> or search again!</p>
+                    </div>
+
+
+                </section>
+
+
 
             </main>
             <?php require("inc/footer.html"); ?>
         </div>
+
         <!-- javaScript -->
         <?php require("inc/script-databases.html"); ?>
-
-
     </body>
 
     </html>
