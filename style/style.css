@@ -1348,7 +1348,7 @@ Browse search results laptop break-point 1024px
 
 } 
 @media only screen and (min-width: 1024px) {
-
+    
     body {
     }
 
@@ -1360,11 +1360,38 @@ Browse search results laptop break-point 1024px
         column-count: none;
     }
 
-*/
+*/  
+    
+
+
+.button--red-yellow {
+    max-width: 20rem;
+    margin-top: 0em; 
+    margin-bottom: 0em; 
+}
+
+    .flexContainer{
+        display:flex;
+    }
+        .flexContainer .flexContainerItem{
+            width: 50%;
+    }
+    .flexContainer .flexContainerItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
     .browse--search-result {
         height: 60vh;
         margin: 0;
             
+    }
+    #slideImages{
+        display:flex;
+        padding:0;
+        overflow-x: visible;
+                flex-wrap: wrap;
     }
 
     .grid {}
@@ -1423,7 +1450,9 @@ Browse search results laptop break-point 1024px
     }
 
     /*this is the text overlay*/
-
+    #flexImages{
+     display:flex;
+    }
     footer.footer{
       margin:0 -3em
     }

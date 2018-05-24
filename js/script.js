@@ -73,9 +73,15 @@
         $(".cookieterms--button").click(function() {$('.js-cookieterms').animate({ bottom:'-10em' }, 300);
         document.cookie = "cookie=accepted; expires=365; path=/";});
 
-
+        
 
 
         // console.log(finalSize);
+        $('#leftarrow').click(function(){
+           $('.slide-images') 
+        });
+        $('#leftarrow').click(function(){
+           $('') 
+        });
         // any javaScript should be put above this comment
     });
