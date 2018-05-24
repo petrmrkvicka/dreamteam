@@ -10,15 +10,12 @@
 
     <body>
 
-        <?php require("inc/header.html"); ?>
         <!-- take a look at the header.html file, there is a comment for you:) -->
         <main class="content">
 
             <section class="form--idea">
-                     <a class="button--back" href="index.php">back</a>
                      <h2>Sign up for the <span class="event--name-span">The Amazing Name</span> event</h2>
-
-                <form action="confirmation.php">
+                <form action="confirmation-frame.php">
 
                     <input type="text" name="your name" placeholder="Your Name">
 
@@ -33,7 +30,6 @@
         </main>
 
         <!-- javaScript -->
-        <?php require("inc/script-databases.html"); ?>
 
 
     </body>

@@ -1,4 +1,6 @@
     $(document).ready(function() {
+
+
         //all jS magic underneath
 
         // carousel
@@ -73,15 +75,41 @@
         $(".cookieterms--button").click(function() {$('.js-cookieterms').animate({ bottom:'-10em' }, 300);
         document.cookie = "cookie=accepted; expires=365; path=/";});
 
-        
+
 
 
         // console.log(finalSize);
         $('#leftarrow').click(function(){
-           $('.slide-images') 
+           $('.slide-images')
         });
         $('#leftarrow').click(function(){
-           $('') 
+           $('')
         });
         // any javaScript should be put above this comment
     });
+
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }

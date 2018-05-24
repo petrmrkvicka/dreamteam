@@ -342,7 +342,7 @@ input[type=text] {
 /* Button */
 
 button,
-input[type=submit] {
+input[type=submit], a.button {
     font-weight: bold;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -356,7 +356,9 @@ input[type=submit] {
     transform: translateX(-50%);
     margin-top: 2em;
     margin-bottom: .6em;
-
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 button:hover,
@@ -729,6 +731,27 @@ span.time {
     padding: 0.5em 1rem;
 }
 
+.slide-pictures {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    margin: 0 -1em;
+}
+
+.slide-pictures img{
+    height: 100px;
+    margin-left: 1em;
+}
+
+.slide-facebook img{
+    height: 70px;
+    margin-left: 1em;
+     margin-right: 0.5em;
+    border-radius: 100%;
+
+}
+
 span.time {
     display: block;
     font-size: 0.5em;
@@ -784,13 +807,17 @@ span.month {
     margin-bottom: 2em
 }
 
+.leftArrow, .rightArrow{
+  display:none
+}
+
 
 
 /*Form --------------------------------------------------------------------*/
 
 
 .form--idea {
-    height: 100%;
+    height: 100vh;
     width: 100vw;
     background: url(../images/mobile.svg) var(--color-dark-blue);
     background-repeat: no-repeat;
@@ -1347,32 +1374,65 @@ Browse search results tablet break-point 760px
         margin-top:4em;
         width: 70%;
     }
+    #flexImages{
+      display: flex;
+      align-items: center;
+    }
+    .leftArrow, .rightArrow{
+      display:block;
+      font-size: 2em;
+      height:100%;
+      padding:2em 0;
+    }
+    .leftArrow{
+      margin-right:1em
+    }
+    .rightArrow{
+      margin-left: 1em
+    }
+    .slide-pictures{
+      margin:0
+    }
+    .slide-pictures img{
+      height:10em
+    }
+    .slide-pictures img:first-of-type{
+      margin-left: 0
+    }
+    .flexContainer{
+      display: flex;
+    }
+    .flexContainerItem.first{
+      flex-basis: 60%;
+      margin: 1em 2em 1em auto
+    }
+    .flexContainerItem.second{
+      flex-basis: 40%
+    }
+    .slide-facebook{
+      flex-wrap: wrap;
+    }
+    .slide-facebook img{
+      height:4em;
+      margin-left:0;
+      margin-right:1em;
+      margin-bottom:1em
+    }
+    .flexContainerItem .button--red-yellow{
+      margin-top:1em;
+      margin-bottom: 1em
+    }
+    .no-desktop{
+      display: none!important;
+    }
+
 }
 /*--------------------------------------------------------------
 Browse search results laptop break-point 1024px
 --------------------------------------------------------------*/
-.slide-pictures {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    overflow-x: scroll;
-    margin: 0 -1em;
-}
 
-.slide-pictures img{
-    height: 100px;
-    margin-left: 1em;
-}
-
-.slide-facebook img{
-    height: 70px;
-    margin-left: 1em;
-     margin-right: 0.5em;
-    border-radius: 100%;
-
-}
 @media only screen and (min-width: 1024px) {
-    
+
     body {
     }
 
@@ -1384,18 +1444,29 @@ Browse search results laptop break-point 1024px
         column-count: none;
     }
 
-*/  
-    
+*/
+.content{
+  margin:1em 0
+}
 
+.event--header-image .browse--bottom{
+  padding-left:2rem
+}
+
+.event--header-image .event--date.des{
+  left:2rem
+}
 
 .button--red-yellow {
     max-width: 20rem;
-    margin-top: 0em; 
-    margin-bottom: 0em; 
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
     .flexContainer{
         display:flex;
+        margin:3em 8em;
+        align-items: flex-start;
     }
         .flexContainer .flexContainerItem{
             width: 50%;
@@ -1405,6 +1476,10 @@ Browse search results laptop break-point 1024px
         flex-direction: column;
         justify-content: center;
 
+    }
+    .flexContainerItem.first p, p.event--description{
+      font-size:20px;
+      line-height: 30px
     }
     .browse--search-result {
         height: 60vh;
@@ -1434,7 +1509,10 @@ Browse search results laptop break-point 1024px
     }
 
     .browse--bottom h2 {
-        font-size: 2.2em;
+        font-size: 4em;
+    }
+    h2.event--date {
+        font-size:2em!important
     }
 
     .browse--search-result-gallery {
@@ -1476,6 +1554,7 @@ Browse search results laptop break-point 1024px
     /*this is the text overlay*/
     #flexImages{
      display:flex;
+     margin:auto 5em
     }
     footer.footer{
       margin:0 -3em
@@ -1488,7 +1567,6 @@ Browse search results laptop break-point 1024px
       margin-left: -4em
     }
     .slide-pictures {
-        padding: 0 30%;
         margin:0;
     }
 
@@ -1503,12 +1581,57 @@ Browse search results laptop break-point 1024px
     }
 
     .slide-facebook img{
-        height: 100px;
-        margin-left: 1em;
+        height: 4em;
+        margin-left: 0;
         margin-right: 1em;
         border-radius: 100%;
 
     }
+
+    .form--idea{
+      width: 100%;
+      margin:0
+    }
 }
 
-/* Event page picture slide */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #888;
+    width: 400px;
+    height: 600px /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
