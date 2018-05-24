@@ -117,7 +117,7 @@
                       <p class="no-mobile">Search by <b>interest</b></p>
                         <!-- BUTTON! -->
                         <button class="button--red-blue by-interest">interest</button>
-                        <form action="browse-events.php" method="" class="by-interest">
+                        <form action="browse-events.php" method="get" class="by-interest">
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
                         <span class="interest--checkmark"><em>ART</em></span>
@@ -157,7 +157,7 @@
                         <!-- BUTTON! -->
                         <button class="button--blue-yellow">calendar</button>
 
-                        <form action="no-result.php" method="">
+                        <form action="no-result.php" method="get">
                             <!-- To style the calendar, you would need to expect the elements from the browser as it is projected into the div. Take into consideration:
                         1) every column has different width, maybe flexbox might help?
                         2) what happens when you click on the month? There is a new calendar with months / years, if you click on the year. Could you style that?
@@ -173,7 +173,7 @@
                 <section id="your_idea">
                     <h2 class="mobile">Got an idea for an event?</h2>
                     <!-- BUTTON TO BE STYLED! -->
-                    <a href="idea.php"><button class="button--yellow-red">Tell us!</button></a>                    <!-- Here goes the form -->
+                    <a href="idea.php" class="button--yellow-red button">Tell us!</a>                    <!-- Here goes the form -->
                     <div class="idea--container">
                       <div class="idea--container-left">
                         <h2>Do you have an awesome idea for an event?</h2>

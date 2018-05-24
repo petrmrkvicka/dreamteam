@@ -26,7 +26,7 @@
                         </div>
 
                     <div class="confirmation--right">
-                    <a class="blue--box-facebook" style="margin:1em"><img src="images/socials/facebook.svg"></a>
+                    <a class="blue--box-facebook" style="margin:1em"><img src="images/socials/facebook.svg" alt="facebook logo"></a>
 
                         </div>
 

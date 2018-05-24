@@ -78,10 +78,10 @@
                 <!-- https://codepen.io/dudleystorey/pen/aONdzJ -->
                 <div class="dark">
                   <h1>4 oh 4</h1>
-                  <img src="/images/bg.svg" alt="Photograph of the Chicago skyline taken from the water during the day" height="100%">
+                  <img src="/images/bg.svg" alt="Photograph of the Chicago skyline taken from the water during the day" style="height:100%">
                 </div>
                 <p class="something-wrong">Sorry! Something went wrong and the page you were looking for cannot be found! </p>
-                <a href="/index.php"><button class="button--yellow-red" style="width:auto;padding:1em">Go to the homepage</button></a>
+                <a href="/index.php" class="button--yellow-red button" style="width:auto;padding:1em">Go to the homepag</a>
               </section>
             </main>
             <?php require("inc/footer.html"); ?>

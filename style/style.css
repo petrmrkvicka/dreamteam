@@ -1246,7 +1246,7 @@ Browse search results tablet break-point 760px
       background-repeat: no-repeat;
     }
 
-    #your_idea button{
+    #your_idea a{
       display: none;
     }
     .idea--container{
