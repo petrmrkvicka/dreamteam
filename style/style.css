@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'Aveniriaium';
+    font-family: 'AvenirMedium';
     src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Medium.woff') format('woff'), url('../fonts/AvenirNext-Medium.ttf') format('truetype'), url('../fonts/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
     font-weight: medium;
     font-style: normal;
@@ -687,7 +687,7 @@ span.time {
     text-transform: none;
 }
 
-.browse--header-date {
+.browse--header-date, .event--date.mob {
     background: url(../images/date.svg);
     background-repeat: no-repeat;
     font-size: 2em;
@@ -695,6 +695,10 @@ span.time {
     top: 0.5em;
     padding: 0.5em 0 0.5em 1rem;
     line-height: 0.7em;
+    color:white
+}
+.event--date.des{
+    display: none
 }
 
 .browse--bottom {
@@ -720,7 +724,7 @@ span.month {
     padding: 0.3em 0;
 }
 
-.browse--search-result {
+.browse--search-result, .event--cover-picture {
     position: relative;
 }
 
@@ -737,6 +741,23 @@ span.month {
 
 .grid-static {
     display: none;
+}
+
+.event--description{
+    color:white
+}
+#event--header-image{
+    height: 80vh;
+    width: 100vw;
+    margin-left:-1em;
+    background-size: cover!important;
+    background-position: center!important
+}
+#event--header-image{
+    position: relative
+}
+#event-top{
+    margin-bottom: 2em
 }
 
 
@@ -1257,9 +1278,52 @@ Browse search results tablet break-point 760px
       cursor: pointer
     }
 
-
+    #event--header-image{
+        width:50%;
+        margin-left: 50%;
+        position: inherit
+    }
+    .event--header-image .browse--bottom{
+        position: absolute;
+        left:0;
+        width:55%;
+        top:20%;
+        bottom:auto
+    }
+    .event--header-image .browse-bottom.browse-header{
+        font-size: 2em
+    }
+    .event--header-image .event--date.des{
+        position: absolute;
+        left:1rem;
+        background: none;
+        color:var(--color-red);
+        display: block;
+        margin-top: 1rem
+        
+    }
+    .event--date.mob{
+        display: none
+    }
+    .event--header-image .event--date br{
+        display: none
+    }
+    .event--header-image .event--date span{
+        display:inline;
+        font-size: 1em;
+        font-family: "AvenirBold";
+        opacity: 1
+    }
+    .event--header-image .event--date span::before{
+        content:" "
+    }
+    .event--description{
+        color:black!important;
+        position:absolute;
+        margin-top:4em;
+        width: 70%;
+    }
 }
-
 /*--------------------------------------------------------------
 Browse search results laptop break-point 1024px
 --------------------------------------------------------------*/
@@ -1276,6 +1340,13 @@ Browse search results laptop break-point 1024px
     margin-left: 1em;
 }
 
+.slide-facebook img{
+    height: 70px;
+    margin-left: 1em;
+     margin-right: 0.5em;
+    border-radius: 100%;
+
+} 
 @media only screen and (min-width: 1024px) {
 
     body {
@@ -1293,11 +1364,7 @@ Browse search results laptop break-point 1024px
     .browse--search-result {
         height: 60vh;
         margin: 0;
-              display: block;
-      height:80vh;
-      width:40%;
-      margin-left:50%;
-      margin-right:4em
+            
     }
 
     .grid {}
@@ -1308,12 +1375,7 @@ Browse search results laptop break-point 1024px
         width: 100%;
         bottom: 0;
         padding: 0.5rem 0;
-            background:var(--color-dark-blue);
-      height:auto;
-      margin-top:8em;
-      position:absolute;
-      left:0;
-      width:53vw
+           
     }
 
     .browse--bottom h2, p {
@@ -1380,6 +1442,19 @@ Browse search results laptop break-point 1024px
     .slide-pictures img{
         height: 200px;
         margin-left: 1em;
+    }
+    
+      .slide-facebook {
+        padding: 0 30%;
+        margin:0;
+    }
+    
+    .slide-facebook img{
+        height: 100px;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 100%;
+        
     }
 }
 
