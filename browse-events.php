@@ -1,6 +1,6 @@
 <?php
   //variables set for head.html, where these are used to show difference between pages
-  $title = "Browse Event Search Results at Dokk1";
+  $title = "Browse events - Dokk1";
   $descr = "";
   $keywords = "";
   //includes everything from file below, without the file, website will show an error
@@ -29,7 +29,7 @@
                         <h2 class="browse--header browse--header-date">10<br> <span class="month">May</span><span class="time">18:00</span></h2>
                         <a href="LINK">
                             <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">Printede Kjoler</h2>                
+                                <h2 class="browse--header browse--header-name">Printede Kjoler</h2>
                                 <p class="browse--info">And here is a place for some short snippet about the event.</p>
                             </div>
                         </a>

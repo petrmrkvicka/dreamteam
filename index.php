@@ -11,10 +11,47 @@
     <body>
       <style>
 
-
+.scroll-down-thingy{
+  display: none
+}
+.carousel--buttons{
+  display: none;
+}
         @media only screen and (min-width: 760px) {
 
+@keyframes moving-arrow {
+  0%{
+    transform:translateY(0%);
+  }
+  20%{
+    transform: translateY(10%);
+  }
+  50%{
+    transform: translateY(0%);
+  }
+  70%{
+    transform: translateY(30%);
+  }
+  95%{
+    transform: translateY(0%);
+  }
+}
+          .scroll-down-thingy{
+            height:6em;
+            background:transparent;
+            position: absolute;
+            left:1em;
+            width:1em;
+            top:65%;
+            text-align: center;
+            animation: moving-arrow 1s ease 0s infinite;
+            display: block;
 
+          }
+
+          .carousel--buttons{
+            display: flex;
+          }
 
 
 
@@ -68,6 +105,9 @@
                         </div>
                     </div>
                 </section>
+                <a href="#search" class="scroll-down-thingy">
+                  <img src="images/arrow.svg" alt="arrow">
+                </a>
                 <section id="intro_text">
                     <p>Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim.</p>
                 </section>
@@ -77,7 +117,7 @@
                       <p class="no-mobile">Search by <b>interest</b></p>
                         <!-- BUTTON! -->
                         <button class="button--red-blue by-interest">interest</button>
-                        <form action="#" method="" class="by-interest">
+                        <form action="browse-events.php" method="" class="by-interest">
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
                         <span class="interest--checkmark"><em>ART</em></span>
@@ -117,7 +157,7 @@
                         <!-- BUTTON! -->
                         <button class="button--blue-yellow">calendar</button>
 
-                        <form action="#" method="">
+                        <form action="no-result.php" method="">
                             <!-- To style the calendar, you would need to expect the elements from the browser as it is projected into the div. Take into consideration:
                         1) every column has different width, maybe flexbox might help?
                         2) what happens when you click on the month? There is a new calendar with months / years, if you click on the year. Could you style that?
