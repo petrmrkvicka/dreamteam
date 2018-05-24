@@ -1626,7 +1626,12 @@ Browse search results laptop break-point 1024px
     color: white;
     float: right;
     font-size: 28px;
+    position: absolute;
     font-weight: bold;
+    right: 1em;
+    top: 1em;
+    background: rgba(0,0,0,0.4);
+    padding: 0.2em;
 }
 
 .close:hover,

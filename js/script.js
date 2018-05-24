@@ -79,12 +79,17 @@
 
 
         // console.log(finalSize);
-        $('#leftarrow').click(function(){
-           $('.slide-images')
-        });
-        $('#leftarrow').click(function(){
-           $('')
-        });
+        // $('.leftArrow').click(function(){
+        //   var x = $(".slide-images").position();
+        //   alert("Top position: " + x.top + " Left position: " + x.left);
+        // });
+        // $('.rightArrow').click(function(){
+        //    $('.slide-images').scrollLeft( +10 );
+        // });
+
+
+
+
         // any javaScript should be put above this comment
     });
 

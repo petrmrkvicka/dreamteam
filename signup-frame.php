@@ -13,7 +13,7 @@
         <!-- take a look at the header.html file, there is a comment for you:) -->
         <main class="content">
 
-            <section class="form--idea">
+            <section class="form--idea" style="padding-top:20%">
                      <h2>Sign up for the <span class="event--name-span">The Amazing Name</span> event</h2>
                 <form action="confirmation-frame.php">
 
