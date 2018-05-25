@@ -1,6 +1,6 @@
 <?php
   //variables set for head.html, where these are used to show difference between pages
-  $title = "Name of the event - Dokk1";
+  $title = "Teen Study Café - Dokk1";
   $descr = "";
   $keywords = "Study, Homework, Homework Help, Tutor, School, After School, Studies, Teen, Library";
   //includes everything from file below, without the file, website will show an error
@@ -38,11 +38,7 @@
                             <a class="leftArrow">←</a>
                         </div>
                         <div class="slide-pictures">
-                            <img src="images/event4.JPG" alt="yup">
-                            <img src="images/event7.JPG" alt="yup">
-                            <img src="images/event3.JPG" alt="yup">
-                            <img src="images/event2.JPG" alt="yup">
-                            <img src="images/event1.JPG" alt="yup">
+                            <img src="images/event-teen-study2.JPG" alt="yup">
                         </div>
                         <div>
                             <a class="rightArrow">→</a>

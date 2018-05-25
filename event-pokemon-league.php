@@ -1,6 +1,6 @@
 <?php
   //variables set for head.html, where these are used to show difference between pages
-  $title = "Name of the event - Dokk1";
+  $title = "Pokémon League - Dokk1";
   $descr = "";
   $keywords = "Play, Game, Pokemon, Cards, Trading, Trade, Club, Pokemon League";
   //includes everything from file below, without the file, website will show an error
@@ -38,11 +38,10 @@
                             <a class="leftArrow">←</a>
                         </div>
                         <div class="slide-pictures">
-                            <img src="images/event4.JPG" alt="yup">
-                            <img src="images/event7.JPG" alt="yup">
-                            <img src="images/event3.JPG" alt="yup">
-                            <img src="images/event2.JPG" alt="yup">
-                            <img src="images/event1.JPG" alt="yup">
+                            <img src="images/event-pokemon2.JPG" alt="Pokemon League at DOKK1">
+                            <img src="images/event-pokemon1.JPG" alt="Girls dressed as Pikachu">
+                            <img src="images/event-pokemon3.JPG" alt="Facepaint boy pokemon at Dokk1">
+        
                         </div>
                         <div>
                             <a class="rightArrow">→</a>
