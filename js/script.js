@@ -21,6 +21,17 @@
 
           //set a style attribute for the container
           $(".carousel").css("min-width", finalSize + "%");
+
+          $(".by-interest-form").hide();
+          $(".by-interest-button").click(function(){
+              $(".by-interest-form").toggle(500);
+          });
+
+          $(".by-date-form").hide();
+          $(".by-date-button").click(function(){
+              $(".by-date-form").toggle(500);
+          });
+
           }
 
 

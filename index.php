@@ -3,6 +3,7 @@
   $title = "Home of events at Dokk1";
   $descr = "";
   $keywords = "";
+  $adding = "index.php";
   //includes everything from file below, without the file, website will show an error
   require("inc/head.html");
   // covered until </head>
@@ -118,8 +119,8 @@
                     <section id="by_interest">
                         <p class="no-mobile">Search by <b>interest</b></p>
                         <!-- BUTTON! -->
-                        <button class="button--red-blue by-interest">interest</button>
-                        <form action="browse-events.php" method="get" class="by-interest">
+                        <button class="button--red-blue by-interest by-interest-button">interest</button>
+                        <form action="browse-events.php" method="get" class="by-interest by-interest-form">
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
                         <span class="interest--checkmark"><em>GAMES</em></span>
@@ -157,9 +158,9 @@
                     <section id="by_calendar">
                         <p class="no-mobile">Search by <b>date</b></p>
                         <!-- BUTTON! -->
-                        <button class="button--blue-yellow">calendar</button>
+                        <button class="button--blue-yellow by-date-button">calendar</button>
 
-                        <form action="no-result.php" method="get">
+                        <form action="no-result.php" method="get" class="by-date-form">
                             <!-- To style the calendar, you would need to expect the elements from the browser as it is projected into the div. Take into consideration:
                         1) every column has different width, maybe flexbox might help?
                         2) what happens when you click on the month? There is a new calendar with months / years, if you click on the year. Could you style that?
