@@ -38,9 +38,9 @@
                             <a class="leftArrow">←</a>
                         </div>
                         <div class="slide-pictures">
-                            <img src="images/event-chess1.JPG" alt="Boy playing chess at DOKK1.">
-                            <img src="images/event-chess2.JPG" alt="Chess event at DOKK1.">
-                            <img src="images/event-chess3.JPG" alt="Giant chess pieces at DOKK1.">
+                            <img src="images/event-chess1.jpg" alt="Boy playing chess at DOKK1.">
+                            <img src="images/event-chess2.jpg" alt="Chess event at DOKK1.">
+                            <img src="images/event-chess3.jpg" alt="Giant chess pieces at DOKK1.">
                             <img src="images/event-chess4.jpg" alt="Giant chess pieces at DOKK1."> 
                         </div>
                         <div>

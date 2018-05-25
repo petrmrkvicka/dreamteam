@@ -75,7 +75,7 @@
                         </div>
                         <div class="carousel">
 
-                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess.JPG')" onclick="window.location.href = 'event-chess.php'">
+                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess.jpg')" onclick="window.location.href = 'event-chess.php'">
                                 <div class="top">
                                     <h2>Chess for Fun</h2>
                                     <span class="time">Saturdays from 12:00 - 15:00</span>
@@ -91,7 +91,7 @@
                             </div>
                           </a>
                           <a href="event-teen-study.php" style="text-decoration:none;color:white">
-                            <div class="carousel--inner" id="item2" style="background:url('images/event-teen-study.JPG')" onclick="window.location.href = 'event-teen-study.php'">
+                            <div class="carousel--inner" id="item2" style="background:url('images/event-teen-study.jpg')" onclick="window.location.href = 'event-teen-study.php'">
                                 <div class="top">
                                     <h2>Teen Study Café at DOKK1</h2>
                                     <span class="time">Tuesdays through Thursdays from 15:30 - 18:00</span>
