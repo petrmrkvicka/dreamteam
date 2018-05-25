@@ -1,6 +1,6 @@
 <?php
   //variables set for head.html, where these are used to show difference between pages
-  $title = "Name of the event - Dokk1";
+  $title = "Aarhus Music School’s Drum Show - Dokk1";
   $descr = "";
   $keywords = "Music, Library, Dokk1, musician, Drum, Drummer, Drumming, Aarhus Musikskole";
   //includes everything from file below, without the file, website will show an error
