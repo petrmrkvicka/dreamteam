@@ -77,11 +77,11 @@
                         <a class="carousel--buttons-right">→</a>
                       </div>
                         <div class="carousel">
-                            <div class="carousel--inner" id="item1" style="background:url('images/event1.JPG')">
+                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess1.JPG')">
                                 <div class="top">
-                                    <h2>Printede Kjoler</h2>
-                                    <span class="time">day 2018</span>
-                                <p>Some description will go here. Some description will go here. Some description will go here. Some description will go here. Some description will go here. </p>
+                                    <h2>Chess for Fun</h2>
+                                    <span class="time">Saturdays from 12:00 - 15:00</span>
+                                <p>Chess for Fun is for all ages! Come play chess at DOKK1 whether you’re a chess lover, a grandmaster, or just want to learn how to play.</p>
                                 <button class="button--yellow-red no-mobile see-more">SEE MORE</button>
                                     </div>
                                 <div class="bottom">
@@ -109,7 +109,7 @@
                   <img src="images/arrow.svg" alt="arrow">
                 </a>
                 <section id="intro_text">
-                    <p>Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim.</p>
+                    <p>We at DOKK1 focus on creating a positive experience for everyone. Explore the weekly events taking place here.</p>
                 </section>
                 <section id="search">
                     <h2>Search by...</h2>
@@ -120,32 +120,32 @@
                         <form action="browse-events.php" method="get" class="by-interest">
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
-                        <span class="interest--checkmark"><em>ART</em></span>
-                      </label>
-                            <label class="interest--checkbox">
-                        <input type="checkbox" value="art">
-                        <span class="interest--checkmark"><em>ART</em></span>
-                      </label>
-                            <label class="interest--checkbox">
-                        <input type="checkbox" value="art">
-                        <span class="interest--checkmark"><em>ART</em></span>
-                      </label><label class="interest--checkbox">
-                        <input type="checkbox" value="art">
                         <span class="interest--checkmark"><em>GAMES</em></span>
-                      </label><label class="interest--checkbox">
-                        <input type="checkbox" value="art">
-                        <span class="interest--checkmark"><em>SOMETHING</em></span>
-                      </label><label class="interest--checkbox">
-                        <input type="checkbox" value="art">
-                        <span class="interest--checkmark"><em>DADDIES</em></span>
                       </label>
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
-                        <span class="interest--checkmark"><em>ART</em></span>
+                        <span class="interest--checkmark"><em>TEEN</em></span>
                       </label>
                             <label class="interest--checkbox">
                         <input type="checkbox" value="art">
+                        <span class="interest--checkmark"><em>MUSIC</em></span>
+                      </label><label class="interest--checkbox">
+                        <input type="checkbox" value="art">
+                        <span class="interest--checkmark"><em>POKÉMON</em></span>
+                      </label><label class="interest--checkbox">
+                        <input type="checkbox" value="art">
                         <span class="interest--checkmark"><em>ART</em></span>
+                      </label><label class="interest--checkbox">
+                        <input type="checkbox" value="art">
+                        <span class="interest--checkmark"><em>CREATIVE</em></span>
+                      </label>
+                            <label class="interest--checkbox">
+                        <input type="checkbox" value="art">
+                        <span class="interest--checkmark"><em>READING</em></span>
+                      </label>
+                            <label class="interest--checkbox">
+                        <input type="checkbox" value="art">
+                        <span class="interest--checkmark"><em>TECHNOLOGY</em></span>
                       </label>
 
                             <input type="submit" class="button--red" value="Search!">
