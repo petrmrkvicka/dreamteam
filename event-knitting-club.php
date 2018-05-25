@@ -14,7 +14,7 @@
             <!-- take a look at the header.html file, there is a comment for you:) -->
             <main class="content">
                 <section id="event-top">
-                    <div id="event--header-image" class="event--header-image" style="background:url('images/event7.jpg')">
+                    <div id="event--header-image" class="event--header-image" style="background:url('images/event-kniting.jpg')">
 
 
                         <h2 class="event--date mob">2<br><span class="month">June</span><span class="time">13:00<br>-16:00</span></h2>
@@ -58,11 +58,9 @@
 
                 <div class="flexContainer">
                     <section class="flexContainerItem first">
-                        <p>Bring your yarn with and meet other happy knitters and crocheters. There will not be an instructor present, but we help each other. Beginners are welcome to join. 
+                        <p>Bring your yarn with you and meet other happy knitters and crocheters. There will not be an instructor present, but we help each other. Beginners are welcome to join. 
                         </p>
-                        <br>
-                        <p>We are looking forward to seeing you for a nice afternoon.
-                        </p> 
+    
                         <br>
                         <p>Knitting Cafe is free and open for anyone ages 12+. 
                         </p>

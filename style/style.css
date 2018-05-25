@@ -564,7 +564,7 @@ input[type=submit] {
 }
 
 .interest--checkmark em {
-    font-family: "AvenirNext-Bold";
+    font-family: "AvenirBold";
 
 }
 
@@ -997,6 +997,12 @@ Browse search results tablet break-point 760px
 --------------------------------------------------------------*/
 
 @media only screen and (min-width: 760px) {
+    .footer h2, .footer p{
+        padding:0
+    }
+    .footer--social-facebook-link{
+        height:100%
+    }
     .browse--search-result-gallery {
         -webkit-column-count: 2;
         /* Chrome, Safari, Opera */

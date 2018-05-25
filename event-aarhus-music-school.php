@@ -58,7 +58,7 @@
 
                 <div class="flexContainer">
                     <section class="flexContainerItem first">
-                        <p>Everyone is welcome to come be entranced by the big bang of student and teacher drummers. 
+                        <p>Everyone is welcome to come enjoy the big bang of student and teacher drummers. 
                         </p>
                         <br>
                         <p>This event is free.                     </p>
