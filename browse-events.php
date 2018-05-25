@@ -59,7 +59,7 @@
                         <h2 class="browse--header browse--header-date">21<br> <span class="month">June</span><span class="time">15:30<br>-17:30</span></h2>
                         <a href="event-techlab.php">
                             <div class="browse--bottom">
-                                <h2 class="browse--header browse--header-name">TechLab: Creative Workshops</h2>
+                                <h2 class="browse--header browse--header-name">TechLab</h2>
                                 <p class="browse--info">At TechLab you can come experiment with our 3D printer and laser cutter and get started on your own projects!</p>
                             </div>
                         </a>

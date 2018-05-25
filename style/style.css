@@ -230,7 +230,8 @@ h2 {
     font-size: 2em;
     text-transform: none;
     letter-spacing: normal;
-    line-height: 1.2em
+    line-height: 1.2em;
+        margin-left: 9rem;
 }
 
 h3 {
@@ -387,6 +388,10 @@ input[type=submit] {
 
 .button--red-yellow {
     background: linear-gradient(120deg, var(--color-red) 60%, var(--color-yellow) 60%);
+}
+
+.event--link {
+    color: var(--color-dark-blue);
 }
 
 /* Carousel

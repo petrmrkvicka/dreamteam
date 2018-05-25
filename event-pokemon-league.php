@@ -66,7 +66,8 @@
                         <br>
                         <p>Any other trading card game players are also welcome.</p>
                         <br>
-                        <p>Follow us on Facebook: https://www.facebook.com/groups/pokemondk/ </p>
+                        <p><a class="event--link" href="https://www.facebook.com/groups/pokemondk/">Follow Denmark's Pokémon League on Facebook.</a></p>
+                        
                     </section>
 
                     <section class="flexContainerItem second">

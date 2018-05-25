@@ -25,7 +25,7 @@
                             <h2 class="event--date des">21<br><span class="month">June</span><span class="time">15:30<br>-17:30</span></h2>
 
                             <p class="event--description"> Are you curious about 3D printing or laser cutting? Do you have a creative idea that you’d like to try? At TechLab you can come experiment with our 3D printer and laser cutter and get started on your own projects!
-</p>
+                            </p>
                         </div>
 
                     </div>
@@ -39,11 +39,13 @@
                             <a class="leftArrow">←</a>
                         </div>
                         <div class="slide-pictures">
-                            <img src="images/event4.JPG" alt="yup">
-                            <img src="images/event7.JPG" alt="yup">
-                            <img src="images/event3.JPG" alt="yup">
-                            <img src="images/event2.JPG" alt="yup">
-                            <img src="images/event1.JPG" alt="yup">
+                            <img src="images/event-techlab2.jpeg" alt="Boy with 3D Printer at DOKK1">
+                            <img src="images/event-techlab3.jpg" alt="3D Printing at DOKK1">
+                            <img src="images/event-techlab4.jpg" alt="Laser Cutting Wood at DOKK1">                            <img src="images/event-techlab2.jpeg" alt="Boy with 3D Printer at DOKK1">
+                            <img src="images/event-techlab3.jpg" alt="3D Printing at DOKK1">
+                            <img src="images/event-techlab4.jpg" alt="Laser Cutting Wood at DOKK1">
+                            
+
                         </div>
                         <div>
                             <a class="rightArrow">→</a>
@@ -65,7 +67,7 @@
                         <p>TechLab is free, however materials are limited.
                         </p>
                         <br>
-                        <p>TechLab is open for anyone ages 12+. Come by to inspire and be inspired!</p>
+                        <p>TechLab is open for anyone ages 12 and up. Come by to inspire and be inspired!</p>
                     </section>
 
                     <section class="flexContainerItem second">
@@ -76,11 +78,11 @@
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
 
-                          <!-- Modal content -->
-                          <div class="modal-content">
-                            <span class="close">&times;</span>
-                              <iframe src="signup-frame.php" style="width:100%;height:100%"></iframe>
-                          </div>
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <iframe src="signup-frame.php" style="width:100%;height:100%"></iframe>
+                            </div>
 
                         </div>
 
