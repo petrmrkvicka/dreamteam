@@ -41,6 +41,7 @@
                             <img src="images/event-chess1.JPG" alt="Boy playing chess at DOKK1.">
                             <img src="images/event-chess2.JPG" alt="Chess event at DOKK1.">
                             <img src="images/event-chess3.JPG" alt="Giant chess pieces at DOKK1.">
+                            <img src="images/event-chess4.jpg" alt="Giant chess pieces at DOKK1."> 
                         </div>
                         <div>
                             <a class="rightArrow">→</a>
@@ -56,10 +57,10 @@
 
                 <div class="flexContainer">
                     <section class="flexContainerItem first">
-                        <p>Of course we all care about that checkmate, but the atmosphere is much more social than competitive. 
+                        <p>Of course we all care about that checkmate, but the atmosphere is much more social than competitive.
                         </p>
                         <br>
-                        <p>We meet on the ramp every Saturday from 12-15. 
+                        <p>We meet on the ramp every Saturday from 12-15.
                         </p>
                         <br>
                         <p>If you have any questions, please contact Ole Ewald Thiesen at oet@aarhus.dk.
@@ -74,11 +75,11 @@
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
 
-                          <!-- Modal content -->
-                          <div class="modal-content">
-                            <span class="close">&times;</span>
-                              <iframe src="signup-frame.php" style="width:100%;height:100%"></iframe>
-                          </div>
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <iframe src="signup-frame.php" style="width:100%;height:100%"></iframe>
+                            </div>
 
                         </div>
 
