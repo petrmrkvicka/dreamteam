@@ -39,6 +39,7 @@
                         </div>
                         <div class="slide-pictures">
                             <img src="images/event-kniting2.jpg" alt="Knitting at DOKK1"><img src="images/event-knitting3.jpg" alt="Three women knitting at DOKK1">
+                            <img src="images/event-knitting1.jpg" alt="Knitted sweater for kids at DOKK1">
                         </div>
                         <div>
                             <a class="rightArrow">→</a>
