@@ -38,7 +38,10 @@
                             <a class="leftArrow">←</a>
                         </div>
                         <div class="slide-pictures">
-                            <img src="images/event4.JPG" alt="yup">
+                            <img src="images/event-pokemon2.JPG" alt="Pokemon League at DOKK1">
+                            <img src="images/event-pokemon1.JPG" alt="Girls dressed as Pikachu">
+                            <img src="images/event-pokemon3.JPG" alt="Facepaint boy pokemon at Dokk1">
+        
                         </div>
                         <div>
                             <a class="rightArrow">→</a>
