@@ -91,12 +91,14 @@
                         <br>
                         <div id="slideImages" class="slide-facebook slide-pictures">
                             <img src="images/melissa.png" alt="yup">
-                            <img src="images/petr.png" alt="yup">
+                            <img src="images/petr.png" alt="Facebook Profile Picture">
                             <img src="images/shereen.png" alt="yup">
-                            <img src="images/flo.png" alt="yup">
-                            <img src="images/petr.png" alt="yup">
-                            <img src="images/melissa.png" alt="yup">
-                            <img src="images/petr.png" alt="yup">
+                            <img src="images/flo.png" alt="Facebook Profile Picture">
+                            <img src="images/robert.jpg" alt="Facebook Profile Picture">
+                            <img src="images/elis.jpg" alt="Facebook Profile Picture">
+                            <img src="images/tyson.jpg" alt="Facebook Profile Picture"> 
+                            <img src="images/simon.jpg" alt="Facebook Profile Picture"> 
+                            <img src="images/chris.jpg" alt="Facebook Profile Picture">
                         </div>
                     </section>
                 </div>
