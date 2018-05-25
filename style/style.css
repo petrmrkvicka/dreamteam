@@ -234,10 +234,6 @@ h2 {
        
 }
 
-event--padding-left {
- margin-left: 9rem;
-    }
-
 h3 {
     font-size: 1.17em;
     text-transform: uppercase;
@@ -1009,6 +1005,11 @@ Browse search results tablet break-point 760px
     .footer h2, .footer p{
         padding:0
     }
+    
+    .event--padding-left {
+ margin-left: 9rem;
+    }
+    
     .footer--social-facebook-link{
         height:100%
     }
