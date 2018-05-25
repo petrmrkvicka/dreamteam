@@ -74,14 +74,15 @@
                         </div>
                         <div class="carousel">
                             <div class="carousel--inner" id="item1" style="background:url('images/event-chess.JPG')">
-                                <div class="top">
+                                <a href="event-chess.php" style="text-decoration:none;color:white"><div class="top">
                                     <h2>Chess for Fun</h2>
                                     <span class="time">Saturdays from 12:00 - 15:00</span>
                                     <p>Chess for Fun is for all ages! Come play chess at DOKK1 whether you’re a chess lover, a grandmaster, or just want to learn how to play.</p>
                                     <button class="button--yellow-red no-mobile see-more"> <a href="event-chess.php" style="text-decoration:none; color:white">SEE MORE</a>
-                            
+
                                  </button>
                                 </div>
+                              </a>
                                 <div class="bottom">
                                     <span class="carousel--inner-price">free</span>
                                 </div>
@@ -98,7 +99,7 @@
                                     <span class="carousel--inner-price">free</span>
                                 </div>
                                     <button class="button--yellow-red no-mobile see-more"> <a href="event-teen-study.php" style="text-decoration:none; color:white">SEE MORE</a>
-                            
+
                                  </button>
                             </div>
 
