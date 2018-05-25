@@ -38,7 +38,7 @@
                             <a class="leftArrow">←</a>
                         </div>
                         <div class="slide-pictures">
-                            <img src="images/event-teen-study2.JPG" alt="yup">
+                            <img src="images/event-teen-study2.jpg" alt="yup">
                         </div>
                         <div>
                             <a class="rightArrow">→</a>
