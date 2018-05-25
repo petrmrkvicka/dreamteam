@@ -73,8 +73,9 @@
                             <a class="carousel--buttons-right">→</a>
                         </div>
                         <div class="carousel">
-                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess.JPG')">
-                                <a href="event-chess.php" style="text-decoration:none;color:white"><div class="top">
+
+                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess.JPG')" onclick="window.location.href = 'event-chess.php'">
+                                <div class="top">
                                     <h2>Chess for Fun</h2>
                                     <span class="time">Saturdays from 12:00 - 15:00</span>
                                     <p>Chess for Fun is for all ages! Come play chess at DOKK1 whether you’re a chess lover, a grandmaster, or just want to learn how to play.</p>
@@ -82,14 +83,14 @@
 
                                  </button>
                                 </div>
-                              </a>
                                 <div class="bottom">
                                     <span class="carousel--inner-price">free</span>
                                 </div>
 
                             </div>
-
-                            <div class="carousel--inner" id="item2" style="background:url('images/event-teen-study.JPG')">
+                          </a>
+                          <a href="event-teen-study.php" style="text-decoration:none;color:white">
+                            <div class="carousel--inner" id="item2" style="background:url('images/event-teen-study.JPG')" onclick="window.location.href = 'event-teen-study.php'">
                                 <div class="top">
                                     <h2>Teen Study Café at DOKK1</h2>
                                     <span class="time">Tuesdays through Thursdays from 15:30 - 18:00</span>
@@ -102,7 +103,7 @@
 
                                  </button>
                             </div>
-
+                          </a>
                         </div>
                     </div>
                 </section>
