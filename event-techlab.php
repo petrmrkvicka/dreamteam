@@ -44,7 +44,7 @@
                             <img src="images/event-techlab4.jpg" alt="Laser Cutting Wood at DOKK1">                            <img src="images/event-techlab2.jpeg" alt="Boy with 3D Printer at DOKK1">
                             <img src="images/event-techlab3.jpg" alt="3D Printing at DOKK1">
                             <img src="images/event-techlab4.jpg" alt="Laser Cutting Wood at DOKK1">
-                            
+
 
                         </div>
                         <div>
@@ -96,8 +96,8 @@
                             <img src="images/flo.png" alt="Facebook Profile Picture">
                             <img src="images/robert.jpg" alt="Facebook Profile Picture">
                             <img src="images/elis.jpg" alt="Facebook Profile Picture">
-                            <img src="images/tyson.jpg" alt="Facebook Profile Picture"> 
-                            <img src="images/simon.jpg" alt="Facebook Profile Picture"> 
+                            <img src="images/tyson.jpg" alt="Facebook Profile Picture">
+                            <img src="images/simon.jpg" alt="Facebook Profile Picture">
                             <img src="images/chris.jpg" alt="Facebook Profile Picture">
                         </div>
                     </section>

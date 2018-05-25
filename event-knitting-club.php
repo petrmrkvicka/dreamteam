@@ -14,7 +14,7 @@
             <!-- take a look at the header.html file, there is a comment for you:) -->
             <main class="content">
                 <section id="event-top">
-                    <div id="event--header-image" class="event--header-image" style="background:url('images/event-kniting.jpg')">
+                    <div id="event--header-image" class="event--header-image" style="background:url('images/event-kniting.JPG')">
 
 
                         <h2 class="event--date mob">2<br><span class="month">June</span><span class="time">13:00<br>-16:00</span></h2>
@@ -54,11 +54,11 @@
 
                 <div class="flexContainer">
                     <section class="flexContainerItem first">
-                        <p>Bring your yarn with you and meet other happy knitters and crocheters. There will not be an instructor present, but we help each other. Beginners are welcome to join. 
+                        <p>Bring your yarn with you and meet other happy knitters and crocheters. There will not be an instructor present, but we help each other. Beginners are welcome to join.
                         </p>
-    
+
                         <br>
-                        <p>Knitting Cafe is free and open for anyone ages 12+. 
+                        <p>Knitting Cafe is free and open for anyone ages 12+.
                         </p>
                         <br>
                         <p>We meet in the DOKK1 Corner (Hjørnet).</p>
@@ -90,8 +90,8 @@
                             <img src="images/flo.png" alt="Facebook Profile Picture">
                             <img src="images/robert.jpg" alt="Facebook Profile Picture">
                             <img src="images/elis.jpg" alt="Facebook Profile Picture">
-                            <img src="images/tyson.jpg" alt="Facebook Profile Picture"> 
-                            <img src="images/simon.jpg" alt="Facebook Profile Picture"> 
+                            <img src="images/tyson.jpg" alt="Facebook Profile Picture">
+                            <img src="images/simon.jpg" alt="Facebook Profile Picture">
                             <img src="images/chris.jpg" alt="Facebook Profile Picture">
                         </div>
                     </section>
