@@ -328,7 +328,7 @@ input[type=text] {
 }
 
 .no-mobile{
-  display:none
+  display:none!important
 }
 
 
@@ -415,7 +415,7 @@ input[type=submit] {
     float: left;
     background: red;
     background-size: cover!important;
-    background-position: center!important;
+    background-position: right!important;
     color: var(--color-white);
     flex-basis: 100%
 }

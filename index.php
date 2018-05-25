@@ -9,61 +9,57 @@
  ?>
 
     <body>
-      <style>
+        <style>
+            .scroll-down-thingy {
+                display: none
+            }
 
-.scroll-down-thingy{
-  display: none
-}
-.carousel--buttons{
-  display: none;
-}
-        @media only screen and (min-width: 760px) {
+            .carousel--buttons {
+                display: none;
+            }
 
-@keyframes moving-arrow {
-  0%{
-    transform:translateY(0%);
-  }
-  20%{
-    transform: translateY(10%);
-  }
-  50%{
-    transform: translateY(0%);
-  }
-  70%{
-    transform: translateY(30%);
-  }
-  95%{
-    transform: translateY(0%);
-  }
-}
-          .scroll-down-thingy{
-            height:6em;
-            background:transparent;
-            position: absolute;
-            left:1em;
-            width:1em;
-            top:65%;
-            text-align: center;
-            animation: moving-arrow 1s ease 0s infinite;
-            display: block;
+            @media only screen and (min-width: 760px) {
 
-          }
+                @keyframes moving-arrow {
+                    0% {
+                        transform: translateY(0%);
+                    }
+                    20% {
+                        transform: translateY(10%);
+                    }
+                    50% {
+                        transform: translateY(0%);
+                    }
+                    70% {
+                        transform: translateY(30%);
+                    }
+                    95% {
+                        transform: translateY(0%);
+                    }
+                }
+                .scroll-down-thingy {
+                    height: 6em;
+                    background: transparent;
+                    position: absolute;
+                    left: 1em;
+                    width: 1em;
+                    top: 65%;
+                    text-align: center;
+                    animation: moving-arrow 1s ease 0s infinite;
+                    display: block;
 
-          .carousel--buttons{
-            display: flex;
-          }
+                }
 
-
-
-
-        }
+                .carousel--buttons {
+                    display: flex;
+                }
 
 
 
 
+            }
 
-
-      </style>
+        </style>
         <div class="wrapper">
             <?php require("inc/header.html"); ?>
             <!-- take a look at the header.html file, there is a comment for you:) -->
@@ -72,34 +68,38 @@
                 <section id="carousel">
                     <h2>Suggested events</h2>
                     <div class="carousel--container">
-                      <div class="carousel--buttons">
-                        <a class="carousel--buttons-left">←</a>
-                        <a class="carousel--buttons-right">→</a>
-                      </div>
+                        <div class="carousel--buttons">
+                            <a class="carousel--buttons-left">←</a>
+                            <a class="carousel--buttons-right">→</a>
+                        </div>
                         <div class="carousel">
-                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess1.JPG')">
+                            <div class="carousel--inner" id="item1" style="background:url('images/event-chess.JPG')">
                                 <div class="top">
                                     <h2>Chess for Fun</h2>
                                     <span class="time">Saturdays from 12:00 - 15:00</span>
-                                <p>Chess for Fun is for all ages! Come play chess at DOKK1 whether you’re a chess lover, a grandmaster, or just want to learn how to play.</p>
-                                <button class="button--yellow-red no-mobile see-more">SEE MORE</button>
-                                    </div>
+                                    <p>Chess for Fun is for all ages! Come play chess at DOKK1 whether you’re a chess lover, a grandmaster, or just want to learn how to play.</p>
+                                    <button class="button--yellow-red no-mobile see-more"> <a href="event-chess.php" style="text-decoration:none; color:white">SEE MORE</a>
+                            
+                                 </button>
+                                </div>
                                 <div class="bottom">
-                                <span class="carousel--inner-price">free</span>
-                                    </div>
+                                    <span class="carousel--inner-price">free</span>
+                                </div>
 
                             </div>
 
-                            <div class="carousel--inner" id="item2" style="background:url('images/event2.JPG')">
+                            <div class="carousel--inner" id="item2" style="background:url('images/event-teen-study.JPG')">
                                 <div class="top">
-                                    <h2>Printede Kjoler</h2>
-                                    <span class="time">day 2018</span>
-                                <p>Some description will go here</p>
-                                    </div>
+                                    <h2>Teen Study Café at DOKK1</h2>
+                                    <span class="time">Tuesdays through Thursdays from 15:30 - 18:00</span>
+                                    <p>After school homework help for 14-18 year olds from Red Barnet Ungdom volunteers.</p>
+                                </div>
                                 <div class="bottom">
-                                <span class="carousel--inner-price">free</span>
-                                    </div>
-                                    <button class="button--yellow-red no-mobile">SEE MORE</button>
+                                    <span class="carousel--inner-price">free</span>
+                                </div>
+                                    <button class="button--yellow-red no-mobile see-more"> <a href="event-teen-study.php" style="text-decoration:none; color:white">SEE MORE</a>
+                            
+                                 </button>
                             </div>
 
                         </div>
@@ -114,7 +114,7 @@
                 <section id="search">
                     <h2>Search by...</h2>
                     <section id="by_interest">
-                      <p class="no-mobile">Search by <b>interest</b></p>
+                        <p class="no-mobile">Search by <b>interest</b></p>
                         <!-- BUTTON! -->
                         <button class="button--red-blue by-interest">interest</button>
                         <form action="browse-events.php" method="get" class="by-interest">
@@ -153,7 +153,7 @@
 
                     </section>
                     <section id="by_calendar">
-                      <p class="no-mobile">Search by <b>date</b></p>
+                        <p class="no-mobile">Search by <b>date</b></p>
                         <!-- BUTTON! -->
                         <button class="button--blue-yellow">calendar</button>
 
@@ -173,24 +173,25 @@
                 <section id="your_idea">
                     <h2 class="mobile">Got an idea for an event?</h2>
                     <!-- BUTTON TO BE STYLED! -->
-                    <a href="idea.php" class="button--yellow-red button">Tell us!</a>                    <!-- Here goes the form -->
+                    <a href="idea.php" class="button--yellow-red button">Tell us!</a>
+                    <!-- Here goes the form -->
                     <div class="idea--container">
-                      <div class="idea--container-left">
-                        <h2>Do you have an awesome idea for an event?</h2>
-                        <form class="idea--form">
-                          <div class="idea--form-left">
-                            <textarea placeholder="Tell us about your idea!" name="idea" required></textarea>
-                          </div>
-                          <div class="idea--form-right">
-                            <input type="text" name="name" required placeholder="Your name">
-                            <input type="email" name="email" required placeholder="Your email">
-                            <input type="submit" value="SEND" class="button--red">
-                          </div>
-                        </form>
-                      </div>
-                      <div class="idea--container-right">
-                        <p>Submit it here and we will help you to turn it into reality!</p>
-                      </div>
+                        <div class="idea--container-left">
+                            <h2>Do you have an awesome idea for an event?</h2>
+                            <form class="idea--form">
+                                <div class="idea--form-left">
+                                    <textarea placeholder="Tell us about your idea!" name="idea" required></textarea>
+                                </div>
+                                <div class="idea--form-right">
+                                    <input type="text" name="name" required placeholder="Your name">
+                                    <input type="email" name="email" required placeholder="Your email">
+                                    <input type="submit" value="SEND" class="button--red">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="idea--container-right">
+                            <p>Submit it here and we will help you to turn it into reality!</p>
+                        </div>
                     </div>
                 </section>
 
