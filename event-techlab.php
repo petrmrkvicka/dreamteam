@@ -31,7 +31,7 @@
                     </div>
                 </section>
                 <section>
-                    <h2>This is what it looks like!</h2>
+                    <h2>Moments from past events!</h2>
                     <br>
 
                     <div id="flexImages">
