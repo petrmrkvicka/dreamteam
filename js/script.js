@@ -84,7 +84,7 @@
 
         //hiding cookies bar
         $(".cookieterms--button").click(function() {$('.js-cookieterms').animate({ bottom:'-10em' }, 300);
-        document.cookie = "cookie=accepted; expires=365; path=/";});
+        document.cookie = "cookie=accepted; expires=Tue, 19 Jan 2038 03:14:07 UTC; path=/";});
 
 
 
@@ -101,8 +101,10 @@
 
 
 
-        // any javaScript should be put above this comment
+        // any jQuery should be put above this comment
     });
+
+
 
     // Get the modal
     var modal = document.getElementById('myModal');

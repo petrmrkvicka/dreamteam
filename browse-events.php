@@ -45,7 +45,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event-pokemon.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event-pokemon.JPG')">
                         <h2 class="browse--header browse--header-date">4<br> <span class="month">June</span><span class="time">16:00-<br>19:00</span></h2>
                         <a href="event-pokemon-league.php">
                             <div class="browse--bottom">
@@ -65,7 +65,7 @@
                         </a>
                     </div>
 
-                    <div class="browse--search-result grid" style="background:url('images/event-kniting.jpg')">
+                    <div class="browse--search-result grid" style="background:url('images/event-kniting.JPG')">
                         <h2 class="browse--header browse--header-date">2<br> <span class="month">June</span><span class="time">13:00<br>-16:00</span></h2>
                         <a href="event-knitting-club.php">
                             <div class="browse--bottom">
